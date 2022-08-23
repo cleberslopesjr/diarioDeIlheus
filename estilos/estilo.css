@@ -25,6 +25,9 @@ body {
 #cabecalho a {
     color: var(--branco);
 }
+img#logo {
+    width: 290px;
+}
 
 section {
     border-top: 1px solid var(--preto);
