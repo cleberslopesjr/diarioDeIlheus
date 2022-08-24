@@ -90,6 +90,10 @@ article {
     padding-left: 0px;
 }
 
+img.imgartigo {
+    max-width: 300px;
+}
+
 div.article {
     padding: 7px;
 }
