@@ -9,24 +9,69 @@
     --preto: #000000;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background: var(--corDeFundo);
     color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
+    width: 100%;
 }
 
 #cabecalho {
     background: var(--corDeFundoDoCabecalho);
     color: var(--branco);
     padding: 7px;
+    margin-bottom: 7px;
+}
+
+#cabecalho figure img {
+    width: 300px;
 }
 
 #cabecalho a {
     color: var(--branco);
 }
-img#logo {
-    width: 290px;
+
+#menu {
+    display: block;
+    list-style: none;
+    margin: 7px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+#menu li {
+    background: green;
+    color: var(--preto);
+    display: inline-block;
+    margin: 0px 7px 0px 0px;
+    border: 1px solid var(--preto);
+    padding: 7px;
+    text-align: center;
+}
+
+#menu li:hover {
+    background-color: aqua;
+    text-decoration: none;
+}
+
+#menu li a {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: var(--branco);
 }
 
 section {
