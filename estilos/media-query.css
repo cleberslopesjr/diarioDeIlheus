@@ -40,7 +40,9 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
 
 /* CELULARES */
 @media screen and (nin-widt: 600px) and (max-width: 768px) {
-    
+    #banner {
+        width: 700px;
+    }
 }
 
 /* TABLETS */
