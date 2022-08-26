@@ -39,9 +39,13 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
 }
 
 /* CELULARES */
-@media screen and (nin-widt: 600px) and (max-width: 768px) {
+@media screen and (min-widt: 600px) and (max-width: 768px) {
     #banner {
         width: 700px;
+    }
+
+    .iconvoltaraotopo {
+        font-size: 1em;
     }
 }
 
@@ -51,6 +55,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
     #banner {
         width: 728px;
     }
+
+    .iconvoltaraotopo {
+        font-size: 2em;
+    }
 }
 
 /* DESCTOPS */
@@ -59,6 +67,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
     #banner {
         width: 728px;
     }
+
+    .iconvoltaraotopo {
+        font-size: 3em;
+    }
 }
 
 /* GRANDES TELAS */
@@ -66,5 +78,9 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
 
     #banner {
         max-width: 728px;
+    }
+
+    .iconvoltaraotopo {
+        font-size: 4em;
     }
 }
