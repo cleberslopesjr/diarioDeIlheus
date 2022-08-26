@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* Todas as demais midias */
+
+/* TYPICAL DEVICE BREAKPOINTS
+---------------------------
+Pequenas telas: até 600px;
+Celular: 600px até 768px;
+Table: 768px até 992px;
+Descktop: 992px até 1200px;
+grandes Telas: acima de 1200px. 
+
+Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
+
+*/
+
+:root { /* Paleta de cores */
+    --branco: #ffffff;
+    --corDeFundo: #d8d8d8;
+    --corDeFundoDoCabecalho: #0000ff;
+    --corDeFundoDasSecoes: #ebebeb;
+    --corDeFundoDoRodape: #bbb9b9;
+    --preto: #000000;
+}
+
+/* IMPRESSÕES */
+@media print {
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+    }
+        #cabecalho {
+            color: var(--preto);
+    }
+
+    .iconvoltaraotopo {
+        display: none;
+    }
+}
+
+/* CELULARES */
+@media screen and (nin-widt: 600px) and (max-width: 768px) {
+    
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    #banner {
+        width: 728px;
+    }
+}
+
+/* DESCTOPS */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    #banner {
+        width: 728px;
+    }
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 1200px) {
+
+    #banner {
+        max-width: 728px;
+    }
+}

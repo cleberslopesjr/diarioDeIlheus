@@ -1,4 +1,6 @@
-@charset "utf-8";
+@charset "UTF-8";
+
+/* Mobile First */
 
 :root { /* Paleta de cores */
     --branco: #ffffff;
@@ -10,16 +12,21 @@
 }
 
 * {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100vw;
 }
 
 body {
     background: var(--corDeFundo);
     color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
-    width: 100%;
 }
 
 #cabecalho {
@@ -74,14 +81,22 @@ body {
     color: var(--branco);
 }
 
+td.banner {
+    text-align: center;
+}
+
+#banner {
+    max-width: 535px;
+}
+
 table {
+    font-size: .9em;
     width: 100%;
     margin: auto;
 }
 
 .iconsFontAwesome {
     color: #8a9eb4;
-    /*font-size: 50px;*/
 }
 
 #iconpaginaanterior {
@@ -92,16 +107,8 @@ table {
     text-align: right;
 }
 
-td.banner {
-    text-align: center;
-}
-
-#banner {
-    max-width: 535px;
-}
-
 .iconvoltaraotopo {
-    font-size: 50px;
+    font-size: 1em;
     position: fixed;
     bottom: 0px;
     right: 0px;
@@ -149,7 +156,7 @@ img {
 }
 
 figcaption p {
-    font-size: 10px;
+    font-size: .5em;
     text-align: center;
 }
 
