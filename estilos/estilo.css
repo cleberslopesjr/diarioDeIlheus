@@ -74,6 +74,33 @@ body {
     color: var(--branco);
 }
 
+table {
+    width: 100%;
+}
+
+.iconsFontAwesome {
+    color: #8a9eb4;
+    font-size: 100px;
+}
+
+#iconpaginaanterior {
+    text-align: left;
+}
+
+#iconpaginaseguinte {
+    text-align: right;
+}
+
+td.banner {
+    text-align: center;
+}
+
+.iconvoltaraotopo {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
 section {
     border-top: 1px solid var(--preto);
     background: var(--corDeFundoDasSecoes);
