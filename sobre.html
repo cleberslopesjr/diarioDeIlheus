@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="estilos/media-query.css">
     <!-- Abaixo o código para usar os ícones do Fontawesone -->
     <script src="https://kit.fontawesome.com/8693edf1e3.js" crossorigin="anonymous"></script>
+    <!-- Abaixo o link para o Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header id="cabecalho">
@@ -36,7 +38,8 @@
             document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year + ".";
             </script>
         <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-        <nav id="menu">
+        <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="navMenu">
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
@@ -87,5 +90,14 @@
         <p>Colaboradores: Waldir Rosário, Ana Virgínia Santiago, Maria Luiza Heine, Hekel Januário e Alberto Barreto.</p>
         <p>Observação: o Diário de Ilhéus não se responsabiliza por matérias ou artigos assinados.</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (navMenu.style.display=="block") {
+                navMenu.style.display="none"
+            } else {
+                navMenu.style.display="block"
+            }
+        }
+    </script>
 </body>
 </html>

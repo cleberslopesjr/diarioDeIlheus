@@ -44,20 +44,25 @@ body {
     color: var(--branco);
 }
 
-#menu {
-    display: block;
+#hamburguer {
+    padding: 7px;
+    cursor: pointer;
+}
+
+#navMenu {
+    display: none;
     list-style: none;
     margin: 7px;
 }
 
-#menu ul {
+#navMenu ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
     text-transform: uppercase;
 }
 
-#menu li {
+#navMenu li {
     background: green;
     color: var(--preto);
     display: inline-block;
@@ -67,17 +72,17 @@ body {
     text-align: center;
 }
 
-#menu li:hover {
+#navMenu li:hover {
     background-color: aqua;
     text-decoration: none;
 }
 
-#menu li a {
+#navMenu li a {
     color: var(--preto);
     text-decoration: none;
 }
 
-#menu a:hover {
+#navMenu a:hover {
     color: var(--branco);
 }
 
