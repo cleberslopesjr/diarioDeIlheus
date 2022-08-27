@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="https://github.com/cleberslopesjr">
+    <meta name="description" content="Jornal Diário de Ilhéus, nº 3502, ano: XXIII. Sexta-feira, 22 a 25 de julho de 2022">
+    <meta name="keywords" content="
+        Diário de Ilhéus, 
+        Jornal de Ilhéus,
+        Notícias de Ilhéus
+        ">
+    <meta name="robots" content="index,follow">
+    <title>Diário de Ilhéus</title>
+    <!--<link rel="stylesheet" href="estilos/estilo.css" media="all">-->
+    <link rel="stylesheet" href="estilos/mobileFrist.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <!-- Abaixo o script para usar os ícones do Fontawesone -->
+    <script src="https://kit.fontawesome.com/8693edf1e3.js" crossorigin="anonymous"></script>
+    <!-- Abaixo o link para o Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1em;
+            padding: 7px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            padding: 7px;
+        }
+        p {
+            padding: 7px;
+        }
+        iframe {
+            border: none;
+            display: block;
+            margin: auto;
+            padding: 0px;
+            width: 210px;
+            height: 154px;
+        }
+        img {
+            margin: auto;
+            width: 100%;
+        }
+        header#cabecalho {
+            background-image: linear-gradient(to right,#2e3092,#ffffff,#4ca391,#fff101,#ee1d23);
+        }
+        header#cabecalho2 {
+            background-color: linear-gradient(#2e3092,#ee1d23);
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho" style="background-image: linear-gradient(#fff101,#4ca391)">
+        <figure>
+            <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
+        </figure>
+        <h1>Diário de Ilhéus.</h1>
+        <p class="center">Fundado em 24/07/1991.</p>
+        <div id="current_date"></div>
+            <script>
+            date = new Date();
+            year = date.getFullYear();
+            month = date.getMonth() + 1;
+            day = date.getDate();
+            document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+            </script>
+        <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+        <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="navMenu">
+            <ul>
+                <li title="Você já está nessa página.">Início</li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1>Estudo das cores para paleta de cores do site do Diário de Ilhéus.</h1>
+        </header>
+        <section>
+            <h2>Paleta Atual.</h2>
+            <p>Branco: <i class="fa-solid fa-square" style="border: 1px solid #000000; color: #ffffff;"></i> #ffffff;</p>
+            <p>Cor de fundo: <i class="fa-solid fa-square" style="border: 1px solid #000000; color: #d8d8d8;"></i> #d8d8d8;</p>
+            <p>Cor De Fundo Do Cabeçalho: <i class="fa-solid fa-square" style="border: 1px solid #000000; color: #00f;"></i> #0000ff;</p>
+            <p>Cor De Fundo Das Seções: <i class="fa-solid fa-square" style="border: 1px solid #000000; color: #ebebeb;"></i> #ebebeb;</p>
+            <p>Cor De Fundo Do Rodape: <i class="fa-solid fa-square" style="border: 1px solid #000000; color: #bbb9b9;"></i> #bbb9b9;</p>
+            <p>Preto: <i class="fa-solid fa-square" style="border: 1px solid #000000; color: #000000;"></i> #000000;</p>
+        </section>
+        <section>
+            <h2>Estudo 1.</h2>    
+            <p>Estudo baseado na paleta de cores utilizada no arquivo PDF emviada para mim por Makalé, na intenção da confecção o favicon.</p>
+            <iframe src="pdfs/log DI.pdf" title="Logomarca simplificada do Diário de Ilhéus." name="Logomarca simplificada do Diário de Ilhéus."></iframe>
+            <p>Abaixo a paleta de cores que extrai do PDF acima.</p>
+            <img src="imagens/paletaDeCores/paletaDeCores.png" alt="">
+            <p>Obs: quero lembrar a Makalé que para fazer o favicon preciso da logomarca em PNG ou em JPG.</p>
+            <h3>1ª Possibilidade de uso da paleta acima.</h3>
+            <p>Uma possibilidade para o uso das cores da logomarca seria essa abaixo:</p>
+            <header id="cabecalho">
+                <figure>
+                    <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
+                </figure>
+                <h1>Diário de Ilhéus.</h1>
+                <p class="center">Fundado em 24/07/1991.</p>
+                <div id="current_date"></div>
+                    <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                    </script>
+                <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+                <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+                <nav id="navMenu">
+                    <ul>
+                        <li title="Você já está nessa página.">Início</li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <p>Obs: no caso acima, precisaremos também estudar a ordem em que as cores serão exibidas.</p>
+            <h3>2ª Possibilidade de uso da paleta acima.</h3>
+            <p>Outra possibilidade para o uso das cores da logomarca seria essa abaixo:</p>
+            <header id="cabecalho" style="background-image: linear-gradient(#2e3092,#ee1d23)">
+                <figure>
+                    <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
+                </figure>
+                <h1>Diário de Ilhéus.</h1>
+                <p class="center">Fundado em 24/07/1991.</p>
+                <div id="current_date"></div>
+                    <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                    </script>
+                <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+                <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+                <nav id="navMenu">
+                    <ul>
+                        <li title="Você já está nessa página.">Início</li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h3>3ª Possibilidade de uso da paleta acima.</h3>
+            <p>A terceira possibilidade para o uso das cores da logomarca seria essa abaixo:</p>
+            <header id="cabecalho" style="background-image: linear-gradient(#4ca391,#fff101)">
+                <figure>
+                    <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
+                </figure>
+                <h1>Diário de Ilhéus.</h1>
+                <p class="center">Fundado em 24/07/1991.</p>
+                <div id="current_date"></div>
+                    <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                    </script>
+                <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+                <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+                <nav id="navMenu">
+                    <ul>
+                        <li title="Você já está nessa página.">Início</li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h3>4ª Possibilidade de uso da paleta acima.</h3>
+            <p>As possibilidades são muitas:</p>
+            <header id="cabecalho" style="background-image: linear-gradient(#fff101,#4ca391)">
+                <figure>
+                    <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
+                </figure>
+                <h1>Diário de Ilhéus.</h1>
+                <p class="center">Fundado em 24/07/1991.</p>
+                <div id="current_date"></div>
+                    <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                    </script>
+                <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+                <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+                <nav id="navMenu">
+                    <ul>
+                        <li title="Você já está nessa página.">Início</li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+    </main>
+    <p class="iconvoltaraotopo">
+        <a href="#cabecalho">
+            <i class="fa-solid fa-circle-up iconsFontAwesome" title="Retornar ao topo da página,"></i>
+        </a>
+    </p>
+    <footer style="background-image: linear-gradient(#4ca391,#fff101);">
+        <h2>Diário de Ilhéus.</h2>
+        <p id="circulacao" style="background-color: #2e3092;">O Jornal impresso continuará circulando semanalmente, todas as sextas-feiras.</p>
+        <address>
+            <p>Av. Milton Santos, 1205, Tapera - Ilhéus - BA.</p>
+            <p>Fone: (73) 98805-0724</p>
+            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+            <p>Site: <a href="http://www.diariodeilheus.com">www.diariodeilheus.com</a></p>
+        </address>
+        <p>Editores: Jonildo Glória e Juliana de Moura.</p>
+        <p>Departamento Comercial: Damiana Gomes.</p>
+        <p>Diagramação: Carlos Makalé.</p>
+        <p>Colaboradores: Waldir Rosário, Ana Virgínia Santiago, Maria Luiza Heine, Hekel Januário e Alberto Barreto.</p>
+        <p>Observação: o Diário de Ilhéus não se responsabiliza por matérias ou artigos assinados.</p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (navMenu.style.display=="block") {
+                navMenu.style.display="none"
+            } else {
+                navMenu.style.display="block"
+            }
+        }
+    </script>
+</body>
+</html>
