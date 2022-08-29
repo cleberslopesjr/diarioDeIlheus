@@ -23,23 +23,29 @@
 </head>
 <body>
     <header id="cabecalho">
-        <figure>
+        <figure id="figLogo" class="col-p-12 col-3 col-g-3 col-gg-3">
             <a href="../index.html">
                 <img src="../imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
             </a>
         </figure>
-        <h2>Diário de Ilhéus.</h2>
-        <p class="center">Fundado em 24/07/1991.</p>
-        <div id="current_date"></div>
-            <script>
-            date = new Date();
-            year = date.getFullYear();
-            month = date.getMonth() + 1;
-            day = date.getDate();
-            document.getElementById("current_date").innerHTML = day  + "/" + month + "/" + year;
-            </script>
-        <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-        <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <div id="h1Cabecalho" class="col-p-12 col-3 col-g-3 col-gg-3">
+            <h2>Diário de Ilhéus.</h2>
+            <p class="center">Fundado em 24/07/1991.</p>
+        </div>
+        <div id="divDate" class="col-p-12 col-4 col-g-4 col-gg-4">
+            <div id="current_date"></div>
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                </script>
+            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+        </div>
+        <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
+            <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        </div>
         <nav id="navMenu">
             <ul>
                 <li><a href="../index.html">Início</a></li>
@@ -48,7 +54,7 @@
             </ul>
         </nav>
     </header>
-    <img src="../imagens/banners/GIF-CAMINHO-DOS-ALTOS10049.gif" alt="" id="banner">
+    <img src="../imagens/banners/GIF-CAMINHO-DOS-ALTOS[10049].gif" alt="" id="banner">
     <table>
         <tr>
                 <td id="iconpaginaanterior">

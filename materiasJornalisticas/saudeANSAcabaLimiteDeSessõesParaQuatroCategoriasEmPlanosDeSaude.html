@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" name="https://github.com/cleberslopesjr">
+    <meta name="author" content="https://github.com/cleberslopesjr">
     <meta name="description" content="ANS Acaba Limite De Sessões Para Quatro Categorias em Planos de Saúde.">
     <meta name="keywords" content="
         Diário de Ilhéus, 
@@ -24,23 +24,29 @@
 </head>
 <body>
     <header id="cabecalho">
-        <figure>
+        <figure id="figLogo" class="col-p-12 col-3 col-g-3 col-gg-3">
             <a href="../index.html">
                 <img src="../imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
             </a>
         </figure>
-        <h1><strong>Diário de Ilhéus</strong>.</h1>
-        <p class="center">Fundado em 24/07/1991.</p>
-        <div id="current_date"></p>
-            <script>
-            date = new Date();
-            year = date.getFullYear();
-            month = date.getMonth() + 1;
-            day = date.getDate();
-            document.getElementById("current_date").innerHTML = day  + "/" + month + "/" + year;
-            </script>
-        <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-        <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <div id="h1Cabecalho" class="col-p-12 col-3 col-g-3 col-gg-3">
+            <h2>Diário de Ilhéus.</h2>
+            <p class="center">Fundado em 24/07/1991.</p>
+        </div>
+        <div id="divDate" class="col-p-12 col-4 col-g-4 col-gg-4">
+            <div id="current_date"></div>
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                </script>
+            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+        </div>
+        <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
+            <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        </div>
         <nav id="navMenu">
             <ul>
                 <li><a href="../index.html">Início</a></li>
@@ -49,12 +55,12 @@
             </ul>
         </nav>
     </header>
-    <img src="../imagens/banners/GIF-CAMINHO-DOS-ALTOS10049.gif" alt="" id="banner">
+    <img src="../imagens/banners/GIF-CAMINHO-DOS-ALTOS[10049].gif" alt="" id="banner">
     <table>
         <tr>
             <td id="iconpaginaanterior">
                 <a href="../index.html" rel="prev">
-                    <i class="fa-solid fa-circle-left iconsFontAwesome" title="Retornar a página anterior." role="prev"></i> <span class="TextoBotao">PÁGINA ANTERIOR</span>
+                    <i class="fa-solid fa-circle-left iconsFontAwesome" title="Retornar a página anterior."></i> <span class="TextoBotao">PÁGINA ANTERIOR</span>
                 </a>
             </td>
             <td id="iconpaginaseguinte">
@@ -70,7 +76,6 @@
                 <header>
                     <h1>Saúde | <a href="https://www.gov.br/ans/pt-br" target="_blank" rel="external"><abbr title="Agência Nacional de Saúde Suplementar">ANS</abbr></a> Acaba Limite De Sessões Para Quatro Categorias em Planos de Saúde.</h1>
                     <figure>
-                <header>
                         <img src="../imagens/ansAcabaLimiteDeSessoesParaQuatroCategoriasEmPlanosDeSaude.jpg" alt="" class="imgartigo">
                         <figcaption>
                             <p>Foto – Planos de Saúde</p>
@@ -97,9 +102,7 @@
         </a>
     </p>
     <footer>
-        <header>
-            <h2>Diário de Ilhéus.</h2>
-        </header>
+        <h2>Diário de Ilhéus.</h2>
         <p id="circulacao">O Jornal impresso continuará circulando semanalmente, todas as sextas-feiras.</p>
         <address>
             <p>Av. Milton Santos, 1205, Tapera - Ilhéus - BA.</p>

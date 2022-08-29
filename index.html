@@ -23,31 +23,38 @@
 </head>
 <body>
     <header id="cabecalho">
-        <figure>
+        <figure id="figLogo" class="col-p-12 col-3 col-g-3 col-gg-3">
             <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
         </figure>
-        <h1>Diário de Ilhéus.</h1>
-        <p class="center">Fundado em 24/07/1991.</p>
-        <div id="current_date"></div>
-            <script>
-            date = new Date();
-            year = date.getFullYear();
-            month = date.getMonth() + 1;
-            day = date.getDate();
-            document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
-            </script>
-        <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-        <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <nav id="navMenu">
-            <ul>
-                <li title="Você já está nessa página.">Início</li>
-                <li><a href="estudoDeCoresParaNossaPaleta.html">Paleta</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </nav>
+        <div id="h1Cabecalho" class="col-p-12 col-3 col-g-3 col-gg-3">
+            <h1>Diário de Ilhéus.</h1>
+            <p class="center">Fundado em 24/07/1991.</p>
+        </div>
+        <div id="divDate" class="col-p-12 col-4 col-g-4 col-gg-4">
+            <div id="current_date"></div>
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
+                </script>
+            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+        </div>
+        <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
+            <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <nav id="navMenu">
+                <ul>
+                    <li title="Você já está nessa página.">Início</li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img src="imagens/banners/GIF-CAMINHO-DOS-ALTOS10049.gif" alt="" id="banner">
+    <div class="col-12" id="divBanner">
+        <img src="imagens/banners/GIF-CAMINHO-DOS-ALTOS[10049].gif" alt="" id="banner">
+    </div>
     <table>
         <tr>
                 <td id="iconpaginaanterior">
@@ -68,7 +75,7 @@
                 <h2><strong>Saúde.</strong></h2>
             </header>
             <article>
-                <header>
+                <header class="headerArticle">
                     <h3><a href="materiasJornalisticas/saudeANSAcabaLimiteDeSessõesParaQuatroCategoriasEmPlanosDeSaude.html">ANS acaba limite de sessões para quatro categorias em Planos de Saude.</a></h3>
                     <img src="imagens/ansAcabaLimiteDeSessoesParaQuatroCategoriasEmPlanosDeSaude.jpg" alt="" class="imgartigo">
                 </header>
@@ -197,19 +204,32 @@
         </a>
     </p>
     <footer>
-        <h2>Diário de Ilhéus.</h2>
-        <p id="circulacao">O Jornal impresso continuará circulando semanalmente, todas as sextas-feiras.</p>
-        <address>
-            <p>Av. Milton Santos, 1205, Tapera - Ilhéus - BA.</p>
-            <p>Fone: (73) 98805-0724</p>
-            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-            <p>Site: <a href="http://www.diariodeilheus.com">www.diariodeilheus.com</a></p>
-        </address>
-        <p>Editores: Jonildo Glória e Juliana de Moura.</p>
-        <p>Departamento Comercial: Damiana Gomes.</p>
-        <p>Diagramação: Carlos Makalé.</p>
-        <p>Colaboradores: Waldir Rosário, Ana Virgínia Santiago, Maria Luiza Heine, Hekel Januário e Alberto Barreto.</p>
-        <p>Observação: o Diário de Ilhéus não se responsabiliza por matérias ou artigos assinados.</p>
+        <div>
+            <h2>Diário de Ilhéus.</h2>
+            <p id="circulacao">O Jornal impresso continuará circulando semanalmente, todas as sextas-feiras.</p>
+        </div>
+        <div>
+            <address>
+                <p>Av. Milton Santos, 1205, Tapera - Ilhéus - BA.</p>
+                <p>Fone: (73) 98805-0724</p>
+                <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
+                <p>Site: <a href="http://www.diariodeilheus.com">www.diariodeilheus.com</a></p>
+            </address>
+            <p>Editores: Jonildo Glória e Juliana de Moura.</p>
+            <p>Departamento Comercial: Damiana Gomes.</p>
+            <p>Diagramação: Carlos Makalé.</p>
+            <p>Colaboradores: Waldir Rosário, Ana Virgínia Santiago, Maria Luiza Heine, Hekel Januário e Alberto Barreto.</p>
+            <p>Observação: o Diário de Ilhéus não se responsabiliza por matérias ou artigos assinados.</p>
+        </div>
+        <div>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="CSS válido!" />
+                </a>
+            </p>
+        </div>
     </footer>
     <script>
         function clickMenu() {

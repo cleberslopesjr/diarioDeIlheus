@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* Todas as demais midias */
-
 /* TYPICAL DEVICE BREAKPOINTS
 ---------------------------
 Pequenas telas: até 600px;
@@ -10,9 +8,7 @@ Table: 768px até 992px;
 Descktop: 992px até 1200px;
 grandes Telas: acima de 1200px. 
 
-Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
-
-*/
+Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
 :root { /* Paleta de cores */
     --branco: #ffffff;
@@ -21,7 +17,29 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
     --corDeFundoDasSecoes: #ebebeb;
     --corDeFundoDoRodape: #bbb9b9;
     --preto: #000000;
+    /* Paleta da logomarca */
+    --azulLogo: #2e3092;
+    /*--branco:#ffffff; inativado pois já consta na paleta inicial */
+    --verdeLogo: #4ca391;
+    --amareloLogo: #fff101;
+    --vermelhoLogo: #ee1d23;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid red; */
+  }
 
 /* IMPRESSÕES */
 @media print {
@@ -38,49 +56,374 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.
     }
 }
 
-/* CELULARES */
-@media screen and (min-widt: 600px) and (max-width: 768px) {
+/* PEQUENOS DISPOSITIVOS */
+
+@media screen and (max-width: 599px) {
+    
+    .col-p-1 {width: 8.33%;}
+    .col-p-2 {width: 16.66%;}
+    .col-p-3 {width: 25%;}
+    .col-p-4 {width: 33.33%;}
+    .col-p-5 {width: 41.66%;}
+    .col-p-6 {width: 50%;}
+    .col-p-7 {width: 58.33%;}
+    .col-p-8 {width: 66.66%;}
+    .col-p-9 {width: 75%;}
+    .col-p-10 {width: 83.33%;}
+    .col-p-11 {width: 91.66%;}
+    .col-p-12 {width: 100%;}
+
+    #cabecalho {
+        min-height: 214px;
+    }
+
+    #figLogo {
+        padding: 0px;
+        height: 69px;
+    }
+
+    #logo {
+        max-height: 68px;
+        max-width: 158px;
+    }
+
+    #h1Cabecalho {
+        padding: 7px;
+        height: 49px;
+    }
+
+    #divDate {
+        padding: 7px;
+        text-align: center;
+        height: 49px;
+    }
+    
+    #divDate p {
+        text-align: center;
+        min-width: 226px;
+    }
+
+    #divHamburguer {
+        padding: 0px;
+    }
+
+    #divBanner {
+        padding: 0px;
+        width: 100%;
+    }
+
     #banner {
-        width: 700px;
+        width: 100%;
+    }
+
+    
+    .iconsFontAwesome {
+        font-size: 1em;
+    }
+
+    .TextoBotao {
+        font-size: .9em;
+    }
+
+    .imgartigo {
+        width: 220px;
     }
 
     .iconvoltaraotopo {
+        margin-bottom: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* CELULARES */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .col-p-1 {width: 8.33%;}
+    .col-p-2 {width: 16.66%;}
+    .col-p-3 {width: 25%;}
+    .col-p-4 {width: 33.33%;}
+    .col-p-5 {width: 41.66%;}
+    .col-p-6 {width: 50%;}
+    .col-p-7 {width: 58.33%;}
+    .col-p-8 {width: 66.66%;}
+    .col-p-9 {width: 75%;}
+    .col-p-10 {width: 83.33%;}
+    .col-p-11 {width: 91.66%;}
+    .col-p-12 {width: 100%;}
+
+    #cabecalho {
+        background: var(--azulLogo);
+        min-height: 214px;
+    }
+
+    #figLogo {
+        padding: 0px;
+        height: 69px;
+    }
+
+    #logo {
+        max-height: 68px;
+        max-width: 158px;
+    }
+
+    #h1Cabecalho {
+        padding: 7px;
+        height: 49px;
+    }
+
+    #divDate {
+        padding: 7px;
+        text-align: center;
+        height: 49px;
+    }
+    
+    #divDate p {
+        text-align: center;
+    }
+
+    #divHamburguer {
+        padding: 0px;
+    }
+
+    #divBanner {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #banner {
+        width: 100%;
+    }
+
+    
+    .iconsFontAwesome {
+        font-size: 2.5em;
+    }
+
+    .TextoBotao {
         font-size: 1em;
+    }
+
+    .iconvoltaraotopo {
+        margin-bottom: 50px;
+        margin-right: 50px;
     }
 }
 
 /* TABLETS */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #cabecalho {
+        background: ;
+    }
+
+    #figLogo {
+        padding: 0px;
+        max-width: 259px;
+        height: 68px;
+    }
+
+    #logo {
+        width: auto;
+        max-height: 68px;
+        max-width: 158px;
+    }
+
+    #h1Cabecalho {
+        min-width: 190px;
+    }
+
+    #divDate {
+        float: right;
+        min-width: 288px;
+        text-align: right;
+    }
+    #figLogo {
+        width: 666px;
+    }
+
+    #divHamburguer {
+        padding: 0px;
+    }
+
+    #divDate {
+        text-align: right;
+    }
+
+    #divBanner {
+        padding: 0px;
+        width: 100%;
+    }
 
     #banner {
-        width: 728px;
+        width: 100%;
+    }
+
+    
+    .iconsFontAwesome {
+        font-size: 3em;
+    }
+
+    .TextoBotao {
+        font-size: 1em;
     }
 
     .iconvoltaraotopo {
-        font-size: 2em;
+        margin-bottom: 50px;
+        margin-right: 50px;
     }
 }
 
 /* DESCTOPS */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .col-g-1 {width: 8.33%;}
+    .col-g-2 {width: 16.66%;}
+    .col-g-3 {width: 25%;}
+    .col-g-4 {width: 33.33%;}
+    .col-g-5 {width: 41.66%;}
+    .col-g-6 {width: 50%;}
+    .col-g-7 {width: 58.33%;}
+    .col-g-8 {width: 66.66%;}
+    .col-g-9 {width: 75%;}
+    .col-g-10 {width: 83.33%;}
+    .col-g-11 {width: 91.66%;}
+    .col-g-12 {width: 100%;}
+
+    #figLogo {
+        padding: 0px;
+        max-width: 350px;
+        height: 68px;
+    }
+
+    #logo {
+        width: auto;
+        max-height: 68px;
+        max-width: 158px;
+    }
+
+    #h1Cabecalho {
+        min-width: 290px;
+    }
+
+    #divDate {
+        float: right;
+        min-width: 288px;
+        text-align: right;
+    }
+    #figLogo {
+        width: 666px;
+    }
+
+    #divHamburguer {
+        padding: 0px;
+    }
+
+    #divDate {
+        text-align: right;
+    }
+
+    #divBanner {
+        padding: 0px;
+        width: 100%;
+    }
+
     #banner {
-        width: 728px;
+        width: 100%;
+    }
+
+    
+    .iconsFontAwesome {
+        font-size: 3.5em;
+    }
+
+    .TextoBotao {
+        font-size: 1em;
     }
 
     .iconvoltaraotopo {
-        font-size: 3em;
+        margin-bottom: 50px;
+        margin-right: 50px;
     }
 }
 
 /* GRANDES TELAS */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
+
+    .col-gg-1 {width: 8.33%;}
+    .col-gg-2 {width: 16.66%;}
+    .col-gg-3 {width: 25%;}
+    .col-gg-4 {width: 33.33%;}
+    .col-gg-5 {width: 41.66%;}
+    .col-gg-6 {width: 50%;}
+    .col-gg-7 {width: 58.33%;}
+    .col-gg-8 {width: 66.66%;}
+    .col-gg-9 {width: 75%;}
+    .col-gg-10 {width: 83.33%;}
+    .col-gg-11 {width: 91.66%;}
+    .col-gg-12 {width: 100%;}
+
+    #figLogo {
+        padding: 0px;
+        width: 520px;
+        height: 68px;
+    }
+
+    #logo {
+        width: auto;
+        max-height: 68px;
+        max-width: 158px;
+    }
+
+    #h1Cabecalho {
+        min-width: 172px;
+    }
+
+    #divDate {
+        float: right;
+        min-width: 362px;
+        text-align: right;
+    }
+
+    #divDate p {
+        text-align: right;
+    }
+    
+    #divHamburguer {
+        padding: 0px;
+    }
+
+    #divBanner {
+        padding: 0px;
+        width: 100%;
+    }
 
     #banner {
-        max-width: 728px;
+        width: 100%;
+    }
+    
+    .iconsFontAwesome {
+        font-size: 4em;
+    }
+
+    .TextoBotao {
+        font-size: 1em;
     }
 
     .iconvoltaraotopo {
-        font-size: 4em;
+        margin-bottom: 50px;
+        margin-right: 50px;
     }
 }
