@@ -74,7 +74,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-p-12 {width: 100%;}
 
     #cabecalho {
-        min-height: 214px;
+        min-height: 157px;
     }
 
     #figLogo {
@@ -133,6 +133,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-bottom: 50px;
         margin-right: 50px;
     }
+
+    footer {
+        height: 297px;
+    }
+
+    #frameFooter {
+        border: none;
+        width: 100%;
+        height: 290px;
+        margin: 0px;
+        padding: 0px;"
+    }
+
 }
 
 /* CELULARES */
@@ -153,7 +166,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     #cabecalho {
         background: var(--azulLogo);
-        min-height: 214px;
+        min-height: 207px;
     }
 
     #figLogo {
@@ -207,6 +220,18 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-bottom: 50px;
         margin-right: 50px;
     }
+
+    footer {
+        height: 197px;
+    }
+
+    #frameFooter {
+        border: none;
+        width: 100%;
+        height: 190px;
+        margin: 0px;
+        padding: 0px;"
+    }
 }
 
 /* TABLETS */
@@ -226,12 +251,14 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-12 {width: 100%;}
 
     #cabecalho {
-        background: ;
+        height: 170px;
     }
 
     #figLogo {
+        float: none;
+        margin: auto;
         padding: 0px;
-        max-width: 259px;
+        width: 100%;
         height: 68px;
     }
 
@@ -284,6 +311,18 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-bottom: 50px;
         margin-right: 50px;
     }
+
+    footer {
+        height: 197px;
+    }
+
+    #frameFooter {
+        border: none;
+        width: 100%;
+        height: 190px;
+        margin: 0px;
+        padding: 0px;"
+    }
 }
 
 /* DESCTOPS */
@@ -302,9 +341,15 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-g-11 {width: 91.66%;}
     .col-g-12 {width: 100%;}
 
+    #cabecalho {
+        height: 168px;
+    }
+
     #figLogo {
+        margin: auto;
+        float: none;
         padding: 0px;
-        max-width: 350px;
+        width: 100%;
         height: 68px;
     }
 
@@ -357,6 +402,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-bottom: 50px;
         margin-right: 50px;
     }
+
+    footer {
+        height: 197px;
+    }
+
+    #frameFooter {
+        border: none;
+        width: 100%;
+        height: 190px;
+        margin: 0px;
+        padding: 0px;"
+    }
+
 }
 
 /* GRANDES TELAS */
@@ -375,7 +433,13 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-gg-11 {width: 91.66%;}
     .col-gg-12 {width: 100%;}
 
+    #cabecalho {
+        height: 168px;
+    }
+
     #figLogo {
+        margin: auto;
+        float: none;
         padding: 0px;
         width: 520px;
         height: 68px;
@@ -425,5 +489,17 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .iconvoltaraotopo {
         margin-bottom: 50px;
         margin-right: 50px;
+    }
+
+    footer {
+        height: 197px;
+    }
+
+    #frameFooter {
+        border: none;
+        width: 100%;
+        height: 190px;
+        margin: 0px;
+        padding: 0px;"
     }
 }

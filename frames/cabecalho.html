@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="https://github.com/cleberslopesjr">
+    <meta name="description" content="Jornal Diário de Ilhéus, nº 3502, ano: XXIII. Sexta-feira, 22 a 25 de julho de 2022">
+    <meta name="keywords" content="
+        Diário de Ilhéus, 
+        Jornal de Ilhéus,
+        Notícias de Ilhéus
+        ">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Diário de Ilhéus</title>
+    <!--<link rel="stylesheet" href="estilos/estilo.css" media="all">-->
+    <link rel="stylesheet" href="../estilos/mobileFrist.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <!-- Abaixo o script para usar os ícones do Fontawesone -->
+    <script src="https://kit.fontawesome.com/8693edf1e3.js" crossorigin="anonymous"></script>
+    <!-- Abaixo o link para o Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho">
+        <figure id="figLogo" class="col-p-12 col-3 col-g-3 col-gg-6">
+            <img src="../imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="Logotipo do Diário de Ilhéus" id="logo">
+        </figure>
+        <div id="h1Cabecalho" class="col-p-12 col-3 col-g-3 col-gg-3">
+            <h1>Diário de Ilhéus.</h1>
+            <p class="center"><em>Fundado em 24/07/1991.</em></p>
+        </div>
+        <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
+            <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="../contatos.html">Contatos</a></li>
+                    <li><a href="../sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+        function clickMenu() {
+            if (navMenu.style.display=="block") {
+                navMenu.style.display="none"
+                cabecalho.style.height="157px"
+            } else {
+                navMenu.style.display="block"
+            }
+        }
+    </script>
+</body>
+</html>

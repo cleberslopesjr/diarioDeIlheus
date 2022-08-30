@@ -22,27 +22,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <header id="cabecalho">
-        <figure id="figLogo" class="col-p-12 col-3 col-g-3 col-gg-3">
-            <a href="../index.html">
-                <img src="../imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="" id="logo">
+    <header id="cabecalho" class="col-p-12 col-12 col-g-12 col-gg-12">
+        <figure id="figLogo">
+            <a href="index.html">
+                <img src="../imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="Logomarca do Jornal Diário de Ilhéus" id="logo">
             </a>
         </figure>
-        <div id="h1Cabecalho" class="col-p-12 col-3 col-g-3 col-gg-3">
-            <h2>Diário de Ilhéus.</h2>
-            <p class="center">Fundado em 24/07/1991.</p>
-        </div>
-        <div id="divDate" class="col-p-12 col-4 col-g-4 col-gg-4">
-            <div id="current_date"></div>
-                <script>
-                date = new Date();
-                year = date.getFullYear();
-                month = date.getMonth() + 1;
-                day = date.getDate();
-                document.getElementById("current_date").innerHTML = "Ilhéus, " + day  + "/" + month + "/" + year;
-                </script>
-            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-        </div>
+        <p class="center"><em>Fundado em 24/07/1991.</em></p>
         <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
             <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
         </div>
@@ -91,8 +77,7 @@
                 <P>Na exposição será possível apreciar as fotos de vários ângulos do <abbr title="Instituto Municipal de Ensino Eusínio Lavigne.">IME</abbr> tiradas pelos estudantes durante o processo, bem como as legendas. A exposição conta, também com fotos em 3D, confeccionadas para garantir a participação dos alunos com deficiência visual.</P>
             </div>
             <footer class="rodapedoartigo">
-                <p>Por <a href="../reporteres/jonildoGloria.html">Jonildo Glória</a>.</p>
-                <p>Publicado em: 22 de agosto de 2022.</p>
+            <p>Publicado por Jonildo Glória em: 22 de agosto de 2022.</p>
             </footer>
         </article>
     </main>
@@ -102,19 +87,7 @@
         </a>
     </p>
     <footer>
-        <h2>Diário de Ilhéus.</h2>
-        <p id="circulacao">O Jornal impresso continuará circulando semanalmente, todas as sextas-feiras.</p>
-        <address>
-            <p>Av. Milton Santos, 1205, Tapera - Ilhéus - BA.</p>
-            <p>Fone: (73) 98805-0724</p>
-            <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-            <p>Site: <a href="http://www.diariodeilheus.com">www.diariodeilheus.com</a></p>
-        </address>
-        <p>Editores: Jonildo Glória e Juliana de Moura.</p>
-        <p>Departamento Comercial: Damiana Gomes.</p>
-        <p>Diagramação: Carlos Makalé.</p>
-        <p>Colaboradores: Waldir Rosário, Ana Virgínia Santiago, Maria Luiza Heine, Hekel Januário e Alberto Barreto.</p>
-        <p>Observação: o Diário de Ilhéus não se responsabiliza por matérias ou artigos assinados.</p>
+        <iframe id="frameFooter" src="../frames/rodape.html"></iframe>
     </footer>
     <script>
         function clickMenu() {

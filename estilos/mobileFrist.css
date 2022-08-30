@@ -32,14 +32,14 @@ body, html {
 }
 
 body {
-    background: var(--branco);
+    background: var(--azulLogo);
     color: var(--preto);
 }
 
 #cabecalho {
-    background: var(--azulLogo);
+    background-image: linear-gradient(#fff101,#4ca391,#2e3092);
     display: block;
-    color: var(--amareloLogo);
+    color: var(--preto);
     height: 115px;
     padding: 7px;
     margin-bottom: 7px;
@@ -137,8 +137,17 @@ table {
     right: 0px;
 }
 
+.TextoBotao a {
+    color: var(--amareloLogo);
+}
+
+.TextoBotao a:hover {
+    color: #ffffff;
+}
+
 section {
     border-top: 1px solid var(--preto);
+    color: var(--preto);
     background: var(--corDeFundoDasSecoes);
     margin: 7px;
     padding: 7px;
@@ -146,6 +155,7 @@ section {
 
 article {
     background: var(--branco);
+    color: var(--preto);
     margin: 7px;
     padding: 7px;
 }
@@ -179,26 +189,38 @@ figcaption p {
 
 .rodapedoartigo {
     margin: 0px;
+    height: 33px;
 }
 
 footer {
-    background: var(--azulLogo);
     color: var(--amareloLogo);
-    margin: 7px;
+    margin: 0px -10px -20px -10px;
     padding: 7px;
 }
 
 #circulacao {
     background: var(--preto);
     color: var(--amareloLogo);
+    margin-top: 7px;
+    margin-bottom: 7px;
     padding: 7px;
     text-align: center;
-}
-
-footer a {
-    color: var(--amareloLogo);
+    width: 100%;
 }
 
 footer a:hover {
     color: var(--verdeLogo);
+}
+
+#frameFooter {
+    background-image: linear-gradient(#2e3092,#4ca391,#fff101);
+}
+
+#frameFooter a {
+    color: var(--amareloLogo);
+    text-decoration: none;
+}
+
+#frameFooter a:hover {
+    color: var(--branco);
 }
