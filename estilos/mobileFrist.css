@@ -152,6 +152,29 @@ article {
     padding: 7px;
 }
 
+article header {
+    margin-bottom: 33px;
+}
+
+article h1 {
+    font-size: 2em;
+    margin-bottom: 11px;
+}
+
+article h2 {
+    font-size: 1.8em;
+    margin-bottom: 11px;
+}
+
+article h3 {
+    font-size: 1,6em;
+    margin-bottom: 11px;
+}
+
+article p {
+    margin-bottom: 11px;
+}
+
 img.imgartigo {
     max-width: 300px;
 }

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="https://github.com/cleberslopesjr">
-    <meta name="description" content="Página de contatos do jornal Diário de Ilhéus.">
+    <meta name="description" content="Ilhéus Realiza primeira Captação de Órgãos para Transplante.">
     <meta name="keywords" content="
-        Contatos do Diário de Ilhéus, 
-        Telefone do jornal Diário de Ilhéus, 
-        Telefone do Diário de Ilhéus,
-        e-mail do Jornal Diário de Ilhéus,
-        site do Jornal Diário de Ilhéus">
-    <title>Diário de Ilhéus</title>
+        Diário de Ilhéus, 
+        Saúde,
+        Ilhéus Realiza primeira Captação de Órgãos para Transplante.">
+    <meta name="robots" content="index,follow">
+
+    <title>Saúde | Ilhéus Realiza primeira Captação de Órgãos para Transplante</title>
+
     <!--<link rel="stylesheet" href="estilos/estilo.css" media="all">-->
     <link rel="stylesheet" href="../estilos/mobileFrist.css">
     <link rel="stylesheet" href="../estilos/media-query.css">
@@ -20,53 +21,11 @@
     <script src="https://kit.fontawesome.com/8693edf1e3.js" crossorigin="anonymous"></script>
     <!-- Abaixo o link para o Google Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        :root { /* Paleta de cores */
-            --branco: #ffffff;
-            --corDeFundo: #d8d8d8;
-            --corDeFundoDoCabecalho: #0000ff;
-            --corDeFundoDasSecoes: #ebebeb;
-            --corDeFundoDoRodape: #bbb9b9;
-            --preto: #000000;
-            /* Paleta da logomarca */
-            --azulLogo: #2e3092;
-            /*--branco:#ffffff; inativado pois já consta na paleta inicial */
-            --verdeLogo: #4ca391;
-            --amareloLogo: #fff101;
-            --vermelhoLogo: #ee1d23;
-        }
-        form {
-            background: var(--azulLogo);
-            flex-direction: column;
-            margin: auto;
-            padding: 7px;
-            width: 273px;
-        }
-        label {
-            color: var(--branco);
-            padding: 7px;
-            width: 100%;
-        }
-        input {
-            margin-bottom: 21px;
-            width: 100%;
-        }
-        button {
-            margin: auto;
-        }
-        a {
-            color: var(--preto);
-            text-decoration: none;
-        }
-        a:hover {
-            color: #4ca391;
-        }
-    </style>
 </head>
 <body>
     <header id="cabecalho" class="col-p-12 col-12 col-g-12 col-gg-12">
         <figure id="figLogo">
-            <a href="../index.html">
+            <a href="index.html">
                 <img src="../imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="Logomarca do Jornal Diário de Ilhéus" title="Logomarca do Jornal Diário de Ilhéus" id="logo">
             </a>
         </figure>
@@ -78,7 +37,7 @@
             <ul>
                 <li><a href="../index.html">Início</a></li>
                 <li><a href="../downloads.html">Downloads</a></li>
-                <li title="Você já está nessa página.">Contatos</li>
+                <li><a href="../contatos/contatos.html">Contatos</a></li>
                 <li><a href="../sobre.html">Sobre</a></li>
             </ul>
         </nav>
@@ -89,12 +48,12 @@
     <table>
         <tr>
             <td id="iconpaginaanterior">
-                <a href="../downloads.html" rel="prev">
+                <a href="professoraParticipaDaVConferenciaEstadualDeSaúdeMentalDaBahia.html" rel="prev">
                     <i class="fa-solid fa-circle-left iconsFontAwesome" title="Retornar a página anterior."></i> <span class="TextoBotao">PÁGINA ANTERIOR</span>
                 </a>
             </td>
             <td id="iconpaginaseguinte">
-                <a href="../sobre.html" rel="next">
+                <a href="prefeituraDeItabunaVaiRealizarConsurso.html" rel="next">
                     <span class="TextoBotao">PROXIMA PÁGINA</span> <i class="fa-solid fa-circle-right iconsFontAwesome" title="Avançar para a próxima página."></i>
                 </a>
             </td>
@@ -102,36 +61,15 @@
     </table>
     <main>
         <article>
-            <header>
-                <h1><strong>Contatos com o Jornal Diário de Ilhéus</strong>.</h1>
-            </header>
-            <section>
+            <div class="article">
                 <header>
-                    <h2>Formulário de Contato:</h2>
+                    <h1><strong>Saúde | Ilhéus Realiza primeira Captação de Órgãos para Transplante</strong>.</h1>
                 </header>
-                <form action="https://api.staticforms.xyz/submit" method="post">
-                    <label>Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome">
-                    <label>E-mail</label>
-                    <input type="email" name="email" placeholder="Digite seu e-mail">
-                    <div>
-                        <div><label>Mensagem</label></div>
-                        <textarea name="mensagem"cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-                    </div>
-                    <div><button type="sybmit">Enviar</button></div>
-                    <input type="hidden" name="accessKey" value="59241c67-bf11-475a-b562-2a07602b6c02">
-                    <input type="hidden" name="redirectTo" value="https://diariodeilheus.com/contatos/obrigado.html">
-                </form>
-            </section>
-            <section>
-                <h2>Outras formas de contato:</h2>
-                <address>
-                    <p>Av. Milton Santos, 1205, Tapera - Ilhéus - BA.</p>
-                    <p>Fone: <a href="tel:+5573988050724">(73) 98805-0724</a></p>
-                    <p>E-mail: <a href="mailto:diariodeilheus@gmail.com">diariodeilheus@gmail.com</a></p>
-                    <p>Site: <a href="http://www.diariodeilheus.com">www.diariodeilheus.com</a></p>
-                </address>
-            </section>
+                <p>O Setor de Intensificação e Apoio a Doações de Órgãos e Tecidos para Transplante (<abbr title="Setor de Intensificação e Apoio a Doações de Órgãos e Tecidos para Transplante">SIADOTT</abbr>), implantado pelo município no mês de maio, realizou a primeira captação de órgãos para transplante no Hospital São José, após ser constatada morte encefálica de um paciente, que é a interrupção irreversível das funções cerebrais.</p>
+            </div>
+            <footer class="rodapedoartigo">
+            <p>Publicado por Jonildo Glória em: 22 de agosto de 2022.</p>
+            </footer>
         </article>
     </main>
     <p class="iconvoltaraotopo">
