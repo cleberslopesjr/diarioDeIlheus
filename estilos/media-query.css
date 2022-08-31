@@ -138,14 +138,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 297px;
     }
 
-    #frameFooter {
-        border: none;
-        width: 100%;
-        height: 290px;
-        margin: 0px;
-        padding: 0px;"
-    }
-
 }
 
 /* CELULARES */
@@ -225,13 +217,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 197px;
     }
 
-    #frameFooter {
-        border: none;
-        width: 100%;
-        height: 190px;
-        margin: 0px;
-        padding: 0px;"
-    }
 }
 
 /* TABLETS */
@@ -316,13 +301,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 197px;
     }
 
-    #frameFooter {
-        border: none;
-        width: 100%;
-        height: 190px;
-        margin: 0px;
-        padding: 0px;"
-    }
 }
 
 /* DESCTOPS */
@@ -407,14 +385,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 197px;
     }
 
-    #frameFooter {
-        border: none;
-        width: 100%;
-        height: 190px;
-        margin: 0px;
-        padding: 0px;"
-    }
-
 }
 
 /* GRANDES TELAS */
@@ -495,11 +465,4 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 197px;
     }
 
-    #frameFooter {
-        border: none;
-        width: 100%;
-        height: 190px;
-        margin: 0px;
-        padding: 0px;"
-    }
 }

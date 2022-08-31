@@ -49,14 +49,6 @@ body {
     width: 300px;
 }
 
-#cabecalho a {
-    color: var(--amareloLogo);
-}
-
-#cabecalho a:hover {
-    color: var(--verdeLogo);
-}
-
 #hamburguer {
     padding: 7px;
     cursor: pointer;
@@ -118,6 +110,14 @@ table {
     margin: auto;
 }
 
+table a {
+    color: var(--amareloLogo);
+}
+
+table a:hover {
+    color: var(--verdeLogo);
+}
+
 .iconsFontAwesome {
     color: #8a9eb4;
 }
@@ -135,14 +135,6 @@ table {
     position: fixed;
     bottom: 0px;
     right: 0px;
-}
-
-.TextoBotao a {
-    color: var(--amareloLogo);
-}
-
-.TextoBotao a:hover {
-    color: #ffffff;
 }
 
 section {
@@ -193,7 +185,9 @@ figcaption p {
 }
 
 footer {
-    color: var(--amareloLogo);
+    
+    background-image: linear-gradient(#2e3092,#4ca391,#fff101);
+    color: var(--preto);
     margin: 0px -10px -20px -10px;
     padding: 7px;
 }
@@ -208,19 +202,11 @@ footer {
     width: 100%;
 }
 
-footer a:hover {
-    color: var(--verdeLogo);
-}
-
-#frameFooter {
-    background-image: linear-gradient(#2e3092,#4ca391,#fff101);
-}
-
-#frameFooter a {
-    color: var(--amareloLogo);
+footer a {
+    color: var(--preto);
     text-decoration: none;
 }
 
-#frameFooter a:hover {
-    color: var(--branco);
+footer a:hover {
+    color: var(--azulLogo);
 }
