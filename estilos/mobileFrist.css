@@ -180,6 +180,8 @@ figcaption p {
 }
 
 .rodapedoartigo {
+    background: var(--azulLogo);
+    color: var(--amareloLogo);
     margin: 0px;
     height: 33px;
 }

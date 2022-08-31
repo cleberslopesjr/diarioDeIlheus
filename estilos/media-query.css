@@ -157,7 +157,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-p-12 {width: 100%;}
 
     #cabecalho {
-        background: var(--azulLogo);
         min-height: 207px;
     }
 
