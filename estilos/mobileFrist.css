@@ -215,7 +215,7 @@ figcaption p {
     background: var(--azulLogo);
     color: var(--amareloLogo);
     margin: 0px;
-    height: 33px;
+    height: auto;
 }
 
 footer {
