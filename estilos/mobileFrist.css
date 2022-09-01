@@ -145,6 +145,10 @@ section {
     padding: 7px;
 }
 
+section h2 {
+    font-size: 1.5em;
+}
+
 article {
     background: var(--branco);
     color: var(--preto);
@@ -167,7 +171,12 @@ article h2 {
 }
 
 article h3 {
-    font-size: 1,6em;
+    font-size: 1.6em;
+    margin-bottom: 11px;
+}
+
+article h4 {
+    font-size: 1.4em;
     margin-bottom: 11px;
 }
 
