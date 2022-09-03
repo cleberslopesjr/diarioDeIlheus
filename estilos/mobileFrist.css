@@ -139,6 +139,7 @@ table a:hover {
 
 section {
     border-top: 1px solid var(--preto);
+    border-radius: 10px;
     color: var(--preto);
     background: var(--corDeFundoDasSecoes);
     margin: 7px;
@@ -149,8 +150,14 @@ section h2 {
     font-size: 1.5em;
 }
 
+#fotoColunista {
+    border-radius: 20px;
+    width: 100px;
+}
+
 article {
     background: var(--branco);
+    border-radius: 10px;
     color: var(--preto);
     margin: 7px;
     padding: 7px;
@@ -213,15 +220,16 @@ figcaption p {
 
 .rodapedoartigo {
     background: var(--azulLogo);
+    border-radius: 10px;
     color: var(--amareloLogo);
     margin: 0px;
     height: auto;
 }
 
 footer {
-    
     background-image: linear-gradient(#2e3092,#4ca391,#fff101);
     color: var(--preto);
+    height: auto;
     margin: 0px -10px -20px -10px;
     padding: 7px;
 }
