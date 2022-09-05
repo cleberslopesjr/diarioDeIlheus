@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" prefix="og: http://ogp.me/ns#">
-<head itemscope itemtype="http://schema.org/Website">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,20 +15,7 @@
 
     <title>Diário de Ilhéus</title>
 
-	<!--Início dos metadados para o Google-->
-	<link itemprop="name" content="Diário de Ilhéus">
-	<link itemprop="description" content="Jornal Diário de Ilhéus, seu site das notícias do município de Ilhéus.">
-	<link itemprop="mainEntityOfPage" content="https://diariodeilheus.com/">
-	<link itemprop="image" href="https://diariodeilheus.com/imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg">
-	<link itemprop="author" content="https://www.facebook.com/cleberslopesjr">
-	<link itemprop="datePublished" content="2006-08-31">
-	<link itemprop="headline" content="Diário de Ilhéus">
-	<link itemprop="publisher" content="https://diariodeilheus.com/">
-	<!--<link itemprop="dateModified" content="2021-10-20">-->
-	<!--Fim dos metadados para o Google-->
-
-    	<!--Início dos metadados para o Facebook-->
-	<link itemprop="mainEntityOfPage" content="Diário de Ilhéus">
+    <!--Início dos metadados para o Facebook-->
 	<meta property="og:locale" content="pt_BR">
 	<meta property="og:site_name" content="Diário de Ilhéus">
 	<meta property="og:title" content="Diário de Ilhéus">
@@ -45,7 +32,7 @@
 	<meta property="og:image:alt" content="Imagem da logomarca do Diário de Ilhéus">
 	<!--Fim dos metadados da imagem-->
 
-	<!--<meta property="FB:admins" content="https://www.facebook.com/AndreResolve?ref=br_rs">-->
+	<!--<meta property="FB:admins" content="https://www.facebook.com/??????????????????">-->
 	<!--Fim dos metadados para o Facebook-->
 
     <!--<link rel="stylesheet" href="estilos/estilo.css" media="all">-->
@@ -60,24 +47,25 @@
 </head>
 <body>
     <header id="cabecalho" class="col-p-12 col-12 col-g-12 col-gg-12">
-        <figure id="figLogo">
+        <figure id="figLogo" class="col-p-12 col-12 col-g-12 col-gg-12">
             <img src="imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg" alt="Logomarca do Jornal Diário de Ilhéus" title="Logomarca do Jornal Diário de Ilhéus" id="logo">
         </figure>
-        <h1>Diário de Ilhéus.</h1>
-        <p class="center"><em>Fundado em 24/07/1991.</em></p>
-        <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
-            <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
-            <nav id="navMenu">
-                <ul>
-                    <li title="Você já está nessa página.">Início</li>
-                    <li><a href="downloads.html">Downloads</a></li>
-                    <li><a href="contatos/contatos.html">Contatos</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
-    <div class="col-12" id="divBanner">
+    <div class="col-p-12 col-12 col-g-12 col-gg-12">
+        <h1 title="Diário de Ilhéus">Diário de Ilhéus.</h1>
+    </div>
+    <div id="divHamburguer" class="col-p-12 col-12 col-g-12 col-gg-12">
+        <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="navMenu">
+            <ul>
+                <li title="Você já está nessa página.">Início</li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="contatos/contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-p-12 col-12 col-g-12 col-gg-12" id="divBanner">
         <a href="https://www.ilheus.ba.gov.br/detalhe-da-materia/info/caminho-dos-altos-prefeito-mario-alexandre-entrega-escadaria-do-alto-do-amparo-neste-sabado-5/155306" target="_blank" rel="external">
             <img src="imagens/banners/gifCaminhoDosAltos.gif" alt="Banner de propaganda do Projeto Caminho dos Altos da Prefeitura Municipal de Ilhéus" id="banner">
         </a>
@@ -96,31 +84,29 @@
             </td>
         </tr>
     </table>
-    <main>
-        <section>
+    <main class="col-p-12 col-12 col-g-12 col-gg-12">
+        <section class="col-p-12 col-12 col-g-12 col-gg-12">
             <header>
-                <h2>Coluna de Walmir Rosário.</h2>
-                <figure>
-                    <img id="fotoColunista" src="imagens/colunistas/walmirRosario/walmirRosario.jpg" alt="Foto do Sr. Walmir Rosário, radialista, jornalista e advogado" title="Walmir Rosário, radialista, jornalista e advogado." style="width: 100px;">
-                    <figcaption>
-                        <p>Walmir Rosário, radialista, jornalista e advogado.</p>
-                    </figcaption>
-                </figure>
+                <h2>Últimas Notícias.</h2>
             </header>
-            <article>
-                <header>
-                    <h1><strong><a href="colunas/walmirRosario/declineiDaSaideiraMasNaoMeInterpretemMalPorWalmirRosario.html">Declinei da Saideira, Mas Não Me Interpretem Mal</a></strong>.</h1>
-                    <figure>
-                        <img src="imagens/colunistas/walmirRosario/confrariaDoAlceuCarnes.jpg" alt="Confraria do Alceu carnes" title="Confraria do Alceu carnes.">
+            <article class="col-p-12 col-12 col-g-12 col-gg-6">
+                    <figure class="col-p-12 col-12 col-g-12 col-gg-6">
+                        <a href="colunas/walmirRosario/declineiDaSaideiraMasNaoMeInterpretemMalPorWalmirRosario.html"><img src="imagens/colunistas/walmirRosario/confrariaDoAlceuCarnes.jpg" alt="Confraria do Alceu carnes" title="Confraria do Alceu carnes." style="width: 250px;"></a>
                         <figcaption>
-                            <p>Confraria do Alceu carnes.</p>
+                            <a href="colunas/walmirRosario/declineiDaSaideiraMasNaoMeInterpretemMalPorWalmirRosario.html"><p>Confraria do Alceu carnes.</p></a>
                         </figcaption>
                     </figure>
-                </header>
-                <p>Bem que esses estudiosos dos comportamento humano afirmam que o homem (no sentido mais amplo) é um ser gregário, que prefere viver em sociedade, bandos, ou outros tipos de agrupamentos. A cada dia esse sentido se torna mais amplo, após o aparecimento das novas tecnologias da telemática, que instituiu os grupos de redes sociais, como no Facebook, Whatsapp, Telegram, dentre outros.</p>
-                <a href="colunas/walmirRosario/declineiDaSaideiraMasNaoMeInterpretemMalPorWalmirRosario.html">
-                    <p>Continue lendo a matéria completa clicando aqui.</p>
-                </a>
+                    <div class="col-p-12 col-12 col-g-12 col-gg-6">
+                        <a href="colunas/walmirRosario/declineiDaSaideiraMasNaoMeInterpretemMalPorWalmirRosario.html">
+                            <h3 style="text-align: left;">        
+                                <strong>
+                                    Declinei da Saideira, Mas Não Me Interpretem Mal.    
+                                </strong>
+                            </h3>
+                            <p>Bem que esses estudiosos dos comportamento humano afirmam que o homem (no sentido mais amplo) é um ser gregário, que prefere viver em sociedade, bandos, ou outros tipos de agrupamentos. A cada dia esse sentido se torna mais amplo, após o aparecimento das novas tecnologias da telemática, que instituiu os grupos de redes sociais, como no Facebook, Whatsapp, Telegram, dentre outros.</p>
+                            <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Leia mais.</p>
+                        </a>
+                </div>
                 <!-- Marcação JSON-LD gerada pelo Assistente de marcação para dados estruturados do Google. -->
 <script type="application/ld+json">
     [
@@ -162,234 +148,97 @@
     ]
     </script>
             </article>
-        </section>
-        <section>
-            <header>
-                <h2>Educação.</h2>
-            </header>
-            <article>
+            <article class="col-p-12 col-12 col-g-12 col-gg-5">
                 <a href="materiasJornalisticas/uescIniciaSegundoSemestreLetivoNestaSegunda29.html">
                     <hgroup>
                         <h3><strong><abbr title="Universidade Estadual de Santa Cruz">Uesc</abbr> inicia segundo semestre letivo nesta segunda (29)</strong>.</h3>
                         <h4>Aula inaugural será proferida por reitor da Ufba.</h4>
                     </hgroup>
+                    <p>A Universidade Estadual de Santa Cruz (Uesc) realiza segunda-feira, dia 29 de agosto, às 9h, a <em>Aula Magna do semestre 2022.2</em>. O tema do encontro será “<em>A Construção da Democracia</em>”. A palestra será proferida pelo professor João Carlos Salles Pires da Silva, reitor da Ufba entre 2014 e 2022, no Auditório Paulo Souto.</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
                 </a>
-                <p>A <a href="http://www.uesc.br/" target="_blank" rel="external">Universidade Estadual de Santa Cruz (<abbr title="Universidade Estadual de Santa Cruz">Uesc</abbr>)</a> realiza segunda-feira, dia 29 de agosto, às 9h, a <em>Aula Magna do semestre 2022.2</em>. O tema do encontro será “<em>A Construção da Democracia</em>”. A palestra será proferida pelo professor João Carlos Salles Pires da Silva, reitor da <a href="https://www.ufba.br/" target="_blank" rel="external"><abbr title="Universidade Federal da Bahia">Ufba</abbr></a> entre 2014 e 2022, no Auditório Paulo Souto.</p>
-                <a href="materiasJornalisticas/uescIniciaSegundoSemestreLetivoNestaSegunda29.html">
-                    <p>Continue lendo a matéria completa clicando aqui.</p>
-                </a>
+                <!-- Marcação JSON-LD gerada pelo Assistente de marcação para dados estruturados do Google. -->
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "name": "Uesc inicia segundo semestre letivo nesta segunda (29)",
+      "author": {
+        "@type": "Person",
+        "name": "Jonildo Glória"
+      },
+      "datePublished": "2022-08-26",
+      "image": "https://www.diariodeilheus.com/imagens/logomarcaDoDiarioDeIlheus/logotipodi.jpg",
+      "articleBody": "A <A href=\"http://www.uesc.br/\" target=\"_blank\" rel=\"external\">Universidade Estadual de Santa Cruz (<ABBR title=\"Universidade Estadual de Santa Cruz\">Uesc</ABBR>)</A> realiza segunda-feira, dia 29 de agosto, às 9h, a <EM>Aula Magna do semestre 2022.2</EM>. O tema do encontro será “<EM>A Construção da Democracia</EM>”. A palestra será proferida pelo professor João Carlos Salles Pires da Silva, reitor da <A href=\"https://www.ufba.br/\" target=\"_blank\" rel=\"external\"><ABBR title=\"Universidade Federal da Bahia\">Ufba</ABBR></A> entre 2014 e 2022, no Auditório Paulo Souto.</P>\n                <P>O reitor da Uesc, Alessandro Fernandes de Santana, destaca que “a universidade é um local de reflexão, debate e acolhida, e a aula inaugural do segundo semestre 2022 é um momento de despertar a consciência da comunidade acadêmica e da população em geral no que se refere aos nossos valores intransigentes e fundamentais a todos nós”.</P>\n                <P>O professor João Carlos Salles é graduado em Filosofia, mestre em Ciências Sociais pela <A href=\"https://www.ufba.br/\" target=\"_blank\" rel=\"external\"><ABBR title=\"Universidade Federal da Bahia\">Ufba</ABBR></A> e doutor em Filosofia pela Universidade Estadual de Campinas. Atualmente, é professor associado 4 da Ufba, onde também foi Diretor da Faculdade de Filosofia e Ciências Humanas nessa Instituição.</P>\n                <P>Entre outros livros, publicou A Gramática das Cores em Wittgenstein (CLE/Unicamp, 2002), O Retrato do Vermelho e Outros Ensaios (Ed. Quarteto, 2006) e O Cético e o Enxadrista: Significação e Experiência em Wittgenstein (Ed. Quarteto, 2012).</P>\n                <P>Eleito recentemente para a Academia de Letras da Bahia, deve ocupar a cadeira 32, que tem como patrono o cachoeirano André Pinto Rebouças. Além disso, é líder do Grupo de Pesquisa do CNPq Filosofia Moderna e Contemporânea, ao qual se vincula o Grupo de Estudos e Pesquisa Empirismo, Fenomenologia e Gramática. E, tendo sido presidente da Associação Nacional de Pós-Graduação em Filosofia (Anpof) de outubro de 2002 a dezembro de 2006, preside agora a Sociedade Interamericana de Filosofia.",
+      "url": "https://www.diariodeilheus.com/materiasJornalisticas/uescIniciaSegundoSemestreLetivoNestaSegunda29.html",
+      "publisher": {
+        "@type": "Organization",
+        "name": "J. R. Editora Ltda"
+      }
+    }
+    </script>
             </article>
-        </section>
-        <section>
-            <header>
-                <h2>Saúde.</h2>
-            </header>
-            <article>
+            <article class="col-p-12 col-12 col-g-12 col-gg-5">
                 <a href="materiasJornalisticas/bahiaTem42CasosDeVariolaDosMacacos.html">
                     <h3>Bahia tem 42 casos de varíola dos macacos.</h3>
-                </a>
-                <p>A Secretaria de Saúde da Bahia (Sesab) informou que o estado registrou mais dois casos de <a href="https://www.gov.br/saude/pt-br/assuntos/variola-dos-macacos" target="_blank" rel="external">“Monkeypox”, doença conhecida como varíola dos macacos</a>. Com esses novos casos, o estado contabiliza 42 pessoas com a doença em todo estado. Casos confirmados de Monkeypox na Bahia: Salvador, 33; Bahia tem 42 casos de varíola dos macacos Santo Antônio de Jesus, 2; Cairu, Conceição do Jacuípe, Feira de Santana, Juazeiro, Mutuípe, Xique-Xique e Ilhéus um caso cada. Além dos confirmados, a Bahia tem 104 casos suspeitos notificados que aguardam diagnóstico laboratorial, segundo a Sesab.</p>
-                <a href="materiasJornalisticas/bahiaTem42CasosDeVariolaDosMacacos.html">
-                    <p>Continue lendo a matéria completa clicando aqui.</p>
+                    <p>A Secretaria de Saúde da Bahia (Sesab) informou que o estado registrou mais dois casos de “Monkeypox”, doença conhecida como varíola dos macacos. Com esses novos casos, o estado contabiliza 42 pessoas com a doença em todo estado. Casos confirmados de Monkeypox na Bahia: Salvador, 33; Bahia tem 42 casos de varíola dos macacos Santo Antônio de Jesus, 2; Cairu, Conceição do Jacuípe, Feira de Santana, Juazeiro, Mutuípe, Xique-Xique e Ilhéus um caso cada. Além dos confirmados, a Bahia tem 104 casos suspeitos notificados que aguardam diagnóstico laboratorial, segundo a Sesab.</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
                 </a>
             </article>
         </section>
-        <section>
+        <section class="col-p-12 col-12 col-g-12 col-gg-12">
             <header>
                 <h2>Economia.</h2>
             </header>
-            <article>
+            <article class="col-p-12 col-12 col-g-12 col-gg-12">
                 <a href="materiasJornalisticas/ilheusTeraNovaUnidadeDoAtacadao.html">
                     <h3>Ilhéus terá nova unidade do Atacadão.</h3>
-                </a>
-                <p>O <a href="https://www.carrefour.com.br/" target="_blank" rel="external">Carrefour</a> deve construir mais uma unidade do <a href="https://www.cartaoatacadao.com.br/" target="_blank" rel="external">Atacadão</a> em Ilhéus. A atual fica na rodovia Jorge Amado próximo a Itabuna. O anúncio foi feito pelo prefeito de Ilhéus.</p>
-                <a href="materiasJornalisticas/ilheusTeraNovaUnidadeDoAtacadao.html">
-                    <p>Continue lendo a matéria completa clicando aqui.</p>
+                    <p>O Carrefour deve construir mais uma unidade do Atacadão em Ilhéus. A atual fica na rodovia Jorge Amado próximo a Itabuna. O anúncio foi feito pelo prefeito de Ilhéus.</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
                 </a>
             </article>
         </section>
-        <section>
+        <section class="col-p-12 col-12 col-g-12 col-gg-12">
             <header>
                 <h2>Emprego</h2>
             </header>
             <article>
                 <a href="materiasJornalisticas/aereaAbreVagasDeEmpregoEmIlheus.html">
                     <h3>Aérea abre vagas de emprego em Ilhéus.</h3>
-                </a>
-                <p>A <a href="https://www.latamairlines.com/br/pt" target="_blank" rel="external">Latam Airlines Group</a> abriu seleção para contratar Agentes de Aeroporto na cidade de Ilhéus onde possui operação comercial.</p>
-                <a href="materiasJornalisticas/aereaAbreVagasDeEmpregoEmIlheus.html">
-                    <p>Continue lendo a matéria completa clicando aqui.</p>
+                <p>A Latam Airlines Group abriu seleção para contratar Agentes de Aeroporto na cidade de Ilhéus onde possui operação comercial.</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
                 </a>
             </article>
         </section>
-        <section>
+        <section class="col-p-12 col-12 col-g-12 col-gg-12">
             <header>
                 <h2>Política.</h2>
             </header>
-            <article>
+            <article class="col-p-12 col-12 col-g-12 col-gg-6">
                 <a href="materiasJornalisticas/mPAlinharAcoesDeControleComTribunaisDeContas.html">
                     <h3>MP alinhar ações de controle com tribunais de contas.</h3>
+                    <p>Três termos de cooperação foram firmados entre o Ministério Público estadual e os Tribunais de Contas do Estado (TCE/BA) e dos Municípios (TCM/BA para articular e aproximar as instituições que integram o sistema de proteção do patrimônio público.</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
                 </a>
-                <p>Três termos de cooperação foram firmados entre o <a href="https://www.mpba.mp.br/" target="_blank" rel="external">Ministério Público estadual</a> e os <a href="https://www.tce.ba.gov.br/" target="_blank" rel="external">Tribunais de Contas do Estado (<abbr title="Tribunais de Contas do Estado da Bahia">TCE/BA</abbr>)</a> e dos <a href="https://www.tcm.ba.gov.br/" target="_blank" rel="external">Municípios (<abbr title="Tribunal de Contas dos Municípios do Estado da Bahia">TCM/BA</abbr></a> para articular e aproximar as instituições que integram o sistema de proteção do patrimônio público.</p>
+            </article>
+            <article class="col-p-12 col-12 col-g-12 col-gg-5">
+                <a href="materiasJornalisticas/novaDiretoriaDaCDLeApresentadaAosEmpresariosNaFeijoadaPrime.html">
+                    <h3>Nova diretoria da CDL é apresentada aos empresários na Feijoada Prime.</h3>
+                    <p>Durante a primeira edição da Feijoada Prime da CDL de Ilhéus, ocorrida no último sábado, dia 20 de agosto, foi apresentada aos empresários da região o novo quadro de diretores da Câmara de Dirigentes Lojistas de Ilhéus.</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
+                </a>
             </article>
         </section>
-        <section>
+        <section class="col-p-12 col-12 col-g-12 col-gg-12">
             <header>
                 <h2>Coluna</h2>
             </header>
             <article>
-                <h3><a href="colunas/domFARifan/osChamados.html">Os Chamados.</a></h3>
-                <p>Quando alguém se admira ao ver um comportamento não exemplar de algum sacerdote ou religioso, eu pergunto...</p>
-                <p><a href="colunas/domFARifan/osChamados.html">Continue lendo a matéria completa clicando aqui.</a></p>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2>Política.</h2>
-            </header>
-            <article>
-                <a href="materiasJornalisticas/novaDiretoriaDaCDLeApresentadaAosEmpresariosNaFeijoadaPrime.html">
-                    <h3>Nova diretoria da CDL é apresentada aos empresários na Feijoada Prime.</h3>
+                <a href="colunas/domFARifan/osChamados.html">
+                    <h3>Os Chamados.</h3>
+                    <p>Quando alguém se admira ao ver um comportamento não exemplar de algum sacerdote ou religioso, eu pergunto...</p>
+                    <p style="background: var(--azulLogo); color: var(--branco); padding: 7px; text-align: center;">Continue lendo a matéria completa clicando aqui.</p>
                 </a>
-                <p>Durante a primeira edição da Feijoada Prime da <a href="https://cdls.org.br/author/0f63d024235a1897b52bad2049b5143b/" target="_blank" rel="external"><abbr title="Câmara de Dirigentes Lojistas">CDL</abbr> de Ilhéus</a>, ocorrida no último sábado, dia 20 de agosto, foi apresentada aos empresários da região o novo quadro de diretores da <a href="https://cdls.org.br/author/0f63d024235a1897b52bad2049b5143b/" target="_blank" rel="external">Câmara de Dirigentes Lojistas de Ilhéus</a>.</p>
-                <a href="materiasJornalisticas/novaDiretoriaDaCDLeApresentadaAosEmpresariosNaFeijoadaPrime.html">
-                    <p>Continue lendo a matéria completa clicando aqui.</p>
-                </a>
-            </article>
-        </section>
-        <!--<section>
-            <header>
-                <h2>Educação.</h2>
-            </header>
-            <article>
-                <h3>Uesc Abre inscrições para o I Concurso Escolar de Fotografias do Dia da Árvore.</h3>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2>Segurança Pública.</h2>
-            </header>
-            <article>
-                <h3>Empresário é levado para delegacia por causar pânico ao divulgar falso ataque a tiros e morte na Bahia.</h3>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2>Política.</h2>
-            </header>
-            <article>
-                <h3>Bancários podem entrar em greve na próxima semana.</h3>
-            </article>
-        </section>        <section>
-            <header>
-                <h2>Esportes.</h2>
-            </header>
-            <article>
-                <h3>Campeonato baiano de triathlon reúne 150 atletas em circuito montado no centro histórico de Ilhéus.</h3>
-            </article>
-        </section>        <section>
-            <header>
-                <h2>Segurança Pública.</h2>
-            </header>
-            <article>
-                <h3>Justiça recebe denúncia contra empresário suspeito de atropelar e matar dentista em Ilhéus.</h3>
-            </article>
-        </section>-->
-        <section>
-            <header>
-                <h2><strong>Saúde.</strong></h2>
-            </header>
-            <article>
-                <header class="headerArticle">
-                    <h3><a href="materiasJornalisticas/aNSAcabaLimiteDeSessõesParaQuatroCategoriasEmPlanosDeSaude.html">ANS acaba limite de sessões para quatro categorias em Planos de Saude.</a></h3>
-                    <img src="imagens/ansAcabaLimiteDeSessoesParaQuatroCategoriasEmPlanosDeSaude.jpg" alt="" class="imgartigo">
-                </header>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2><strong>Saúde.</strong></h2>
-            </header>
-            <article>
-                <header>
-                    <h3><a href="materiasJornalisticas/professoraParticipaDaVConferenciaEstadualDeSaúdeMentalDaBahia.html">Professora Participa  da V Conferência Estadual de Saúde Mental da Bahia.</a></h3>
-                    <figure>
-                        <img src="imagens/png.png" alt="" class="imgartigo">
-                        <figcaption>
-                            <p>Foto Rozemeire.</p>
-                            <p>A professora defendeu a luta pelo acesso de todos ao cuidado integral, de qualidade e justo.</p>
-                        </figcaption>
-                    </figure>
-                </header>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2><strong>Saúde.</strong></h2>
-            </header>
-            <article>
-                <header>
-                    <h3><a href="materiasJornalisticas/ilheusRealizaPrimeiraCaptacaoDeOrgaosParaTransplante.html">Ilhéus Realiza primeira Captação de Órgãos para Transplante.</a></h3>
-                </header>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2><strong>Emprego.</strong></h2>
-            </header>
-            <article>
-                <header>
-                    <h3><a href="materiasJornalisticas/prefeituraDeItabunaVaiRealizarConsurso.html">Prefeitura de Itabuna vai Realizar concurso.</a></h3>
-                </header>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2><strong>Educação.</strong></h2>
-            </header>
-            <article>
-                <header>
-                    <h3><a href="materiasJornalisticas/iMELancaExposicaoFotograficaDosSeusEstudantes.html"><abbr title="Instituto Municipal de Ensino">IME</abbr> Lança Exposição Fotográfica dos Seus Estudantes.</a></h3>
-                    <figure>
-                        <img src="imagens/imeLancaExposicaoFotograficaDosSeusEstudantes.jpeg" alt="" class="imgartigo">
-                        <figcaption>
-                            <p>Foto <abbr title="Instituto Municipal de Ensino Eusínio Lavigne.">IME</abbr>.</p>
-                            <p>A exposição ficará aberta até o dia 24 de agosto, sendo possível a visitação durante o horário escolar.</p>
-                        </figcaption>
-                    </figure>
-                </header>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2><strong>Ciência & Tecnologia.</strong></h2>
-            </header>
-            <article>
-                <h3><a href="materiasJornalisticas/julianaUstraLançaMapaSensorialParaExploracaoDoChocolate.html">Juliana Ustra Lança Mapa Sensorial Para Exploração do Chocolate.</a></h3>
-                <figure>
-                    <img src="imagens/juliana-expedição-sensorial-8.jpg" alt="" class="imgartigo">
-                    <figcaption>
-                        <p>Foto Juliana Ustra.</p>
-                        <p>A gaúcha <a href="https://www.instagram.com/chocolatenobrasil/" target="_blank" rel="external">Juliana Ustra</a> está estudando este tema a dez anos e se especializando neste mercado.</p>
-                    </figcaption>
-                </figure>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2><strong>Política.</strong></h2>
-            </header>
-            <article>
-                <header>
-                    <h3><a href="materiasJornalisticas/ministroVisitaPoloIndustrialEDeInformaticaDeIlhéus.html">Ministro Visita Polo Industrial e de Informática de Ilhéus.</a></h3>
-                    <figure>
-                        <img src="imagens/MCTI.jpeg" alt="" class="imgartigo">
-                        <figcaption>
-                            <p>FOTO MCTI -Foto: Marcelo Camará (SEAPC/MCTI)</p>
-                            <p>Ministro visitou empresas investem na geração de empregos e renda em Ilhéus (Foto: Marcelo Camará (<abbr title="Secretaria de Articulação e Promoção da Ciência"><a href="https://www.gov.br/mcti/pt-br/composicao/secretaria-de-articulacao-e-promocao-da-ciencia" target="_blank" rel="external">SEAPC</a></abbr>/<abbr title="Ministério da Ciência, Tecnologia e Inovações"><a href="https://www.gov.br/mcti/pt-br" target="_blank" rel="external">MCTI</a></abbr>)</p>
-                        </figcaption>
-                    </figure>
-                </header>
             </article>
         </section>
     </main>
@@ -398,9 +247,9 @@
             <i class="fa-solid fa-circle-up iconsFontAwesome" title="Retornar ao topo da página,"></i>
         </a>
     </p>
-    <footer>
+    <footer class="col-p-12 col-12 col-g-12 col-gg-12">
         <h2><strong>Diário de Ilhéus</strong>.</h2>
-        <p class="center"><em>Fundado em 24/07/1991.</em></p>
+        <p class="center"><em>Fundado em 24/07/1999.</em></p>
         <p id="circulacao">O Jornal impresso continuará circulando semanalmente, todas as sextas-feiras.</p>
         <div style="padding-left: 7px;">
             <address>

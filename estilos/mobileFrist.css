@@ -32,21 +32,31 @@ body, html {
 }
 
 body {
-    background: var(--azulLogo);
+    background: var(--branco);
     color: var(--preto);
+}
+
+a {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #cabecalho {
     background-image: linear-gradient(#fff101,#4ca391,#2e3092);
     display: block;
     color: var(--preto);
-    height: 115px;
+    height: auto;
     padding: 7px;
     margin-bottom: 7px;
 }
 
 #cabecalho figure img {
-    width: 300px;
+    min-width: 280px;
+    max-width: 666px;
 }
 
 #hamburguer {
@@ -101,7 +111,7 @@ td.banner {
 }
 
 #banner {
-    max-width: 535px;
+    max-width: 1000px;
 }
 
 table {
@@ -111,7 +121,7 @@ table {
 }
 
 table a {
-    color: var(--amareloLogo);
+    color: var(--preto);
 }
 
 table a:hover {
@@ -142,7 +152,7 @@ section {
     border-radius: 10px;
     color: var(--preto);
     background: var(--corDeFundoDasSecoes);
-    margin: 7px;
+    margin: 7px auto 7px auto;
     padding: 7px;
 }
 
@@ -191,11 +201,8 @@ article p {
     margin-bottom: 11px;
 }
 
-img.imgartigo {
-    max-width: 300px;
-}
-
 h1, h2, h3, h4, h5, h6 {
+    color: var(--azulLogo);
     text-align: center;
 }
 
@@ -242,6 +249,10 @@ footer {
     padding: 7px;
     text-align: center;
     width: 100%;
+}
+
+footer h2 {
+    color: var(--preto);
 }
 
 footer a {

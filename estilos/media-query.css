@@ -83,8 +83,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #logo {
-        max-height: 68px;
-        max-width: 158px;
+        width: 270px;
     }
 
     #h1Cabecalho {
@@ -134,6 +133,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-right: 50px;
     }
 
+    .imgartigo {
+        max-width: 210px;
+    }
+    
     footer {
         height: auto;
     }
@@ -157,32 +160,21 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-p-12 {width: 100%;}
 
     #cabecalho {
-        min-height: 207px;
+        min-height: 310px;
     }
 
     #figLogo {
         padding: 0px;
-        height: 69px;
     }
 
     #logo {
-        max-height: 68px;
-        max-width: 158px;
+        margin: auto;
+        width: 584px;
     }
 
     #h1Cabecalho {
         padding: 7px;
         height: 49px;
-    }
-
-    #divDate {
-        padding: 7px;
-        text-align: center;
-        height: 49px;
-    }
-    
-    #divDate p {
-        text-align: center;
     }
 
     #divHamburguer {
@@ -212,6 +204,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-right: 50px;
     }
 
+    .imgartigo {
+        max-width: 210px;
+    }
+    
     footer {
         height: auto;
     }
@@ -235,7 +231,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-12 {width: 100%;}
 
     #cabecalho {
-        height: 170px;
+        height: 310px;
     }
 
     #figLogo {
@@ -248,19 +244,12 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     #logo {
         width: auto;
-        max-height: 68px;
-        max-width: 158px;
     }
 
     #h1Cabecalho {
         min-width: 190px;
     }
 
-    #divDate {
-        float: right;
-        min-width: 288px;
-        text-align: right;
-    }
     #figLogo {
         width: 666px;
     }
@@ -296,6 +285,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-right: 50px;
     }
 
+    .imgartigo {
+        max-width: 210px;
+    }
+    
     footer {
         height: auto;
     }
@@ -319,7 +312,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-g-12 {width: 100%;}
 
     #cabecalho {
-        height: 168px;
+        height: 310px;
     }
 
     #figLogo {
@@ -331,9 +324,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #logo {
-        width: auto;
-        max-height: 68px;
-        max-width: 158px;
+        width: 979px;
     }
 
     #h1Cabecalho {
@@ -380,6 +371,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-right: 50px;
     }
 
+    .imgartigo {
+        max-width: 330px;
+    }
+
     footer {
         height: auto;
     }
@@ -402,36 +397,28 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-gg-11 {width: 91.66%;}
     .col-gg-12 {width: 100%;}
 
+    body {
+        width: 100%;
+    }
+
     #cabecalho {
-        height: 168px;
+        width: 100%;
+        height: 310px;
     }
 
     #figLogo {
         margin: auto;
-        float: none;
+        float: center;
         padding: 0px;
-        width: 520px;
-        height: 68px;
+        height: auto;
     }
 
     #logo {
-        width: auto;
-        max-height: 68px;
-        max-width: 158px;
+        width: 666px;
     }
 
     #h1Cabecalho {
-        min-width: 172px;
-    }
-
-    #divDate {
-        float: right;
-        min-width: 362px;
-        text-align: right;
-    }
-
-    #divDate p {
-        text-align: right;
+        min-width: 320px;
     }
     
     #divHamburguer {
@@ -444,7 +431,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #banner {
-        width: 100%;
+        width: 1000px;
     }
     
     .iconsFontAwesome {
@@ -458,6 +445,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .iconvoltaraotopo {
         margin-bottom: 50px;
         margin-right: 50px;
+    }
+
+    .imgartigo {
+        max-width: 400px;
     }
 
     footer {
