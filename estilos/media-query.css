@@ -91,17 +91,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 49px;
     }
 
-    #divDate {
-        padding: 7px;
-        text-align: center;
-        height: 49px;
-    }
-    
-    #divDate p {
-        text-align: center;
-        min-width: 226px;
-    }
-
     #divHamburguer {
         padding: 0px;
     }
