@@ -125,7 +125,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .imgartigo {
         max-width: 210px;
     }
-    
+
+    .imgPaginaDoArt {
+        width: 220px;
+    }
+
     footer {
         height: auto;
     }
@@ -196,7 +200,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .imgartigo {
         max-width: 210px;
     }
-    
+
+    .imgPaginaDoArt {
+        width: 520px;
+    }
+
     footer {
         height: auto;
     }
@@ -277,7 +285,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .imgartigo {
         max-width: 210px;
     }
-    
+
+    .imgPaginaDoArt {
+        width: 220px;
+    }
+
     footer {
         height: auto;
     }
@@ -364,6 +376,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         max-width: 330px;
     }
 
+    .imgPaginaDoArt {
+        width: 420px;
+    }
+
     footer {
         height: auto;
     }
@@ -438,6 +454,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     .imgartigo {
         max-width: 400px;
+    }
+
+    .imgPaginaDoArt {
+        width: 620px;
     }
 
     footer {
