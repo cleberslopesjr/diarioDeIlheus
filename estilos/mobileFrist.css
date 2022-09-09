@@ -161,7 +161,7 @@ section h2 {
 }
 
 article {
-    background: var(--branco);
+    background-color: var(--branco);
     border: 1px solid var(--amareloLogo);
     border-radius: 10px;
     color: var(--preto);
@@ -170,6 +170,7 @@ article {
 }
 
 article header {
+    background: var(--branco);
     margin-bottom: 0px auto 33px auto;
 }
 
@@ -206,9 +207,6 @@ p {
     text-align: justify;
 }
 
-div.textoArtigo {
-}
-
 .center {
     text-align: center;
 }
@@ -228,6 +226,7 @@ figcaption p {
     background: var(--azulLogo);
     border-radius: 10px;
     color: var(--amareloLogo);
+    display: block;
     margin: 0px;
     height: auto;
 }
