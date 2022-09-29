@@ -231,6 +231,14 @@ figcaption p {
     height: auto;
 }
 
+.rodapedoartigo a {
+    color: var(--amareloLogo);
+}
+
+.rodapedoartigo a:hover {
+    color: var(--branco)
+}
+
 footer {
     background-image: linear-gradient(#2e3092,#4ca391,#fff101);
     color: var(--preto);
