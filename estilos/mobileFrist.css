@@ -143,7 +143,6 @@ table a:hover {
 }
 
 section {
-    border: 1px solid var(--preto);
     border-radius: 10px;
     color: var(--preto);
     background: var(--corDeFundoDasSecoes);
@@ -162,7 +161,6 @@ section h2 {
 
 article {
     background-color: var(--branco);
-    border: 1px solid var(--amareloLogo);
     border-radius: 10px;
     color: var(--preto);
     margin: 7px;
