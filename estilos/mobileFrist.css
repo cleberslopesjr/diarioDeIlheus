@@ -177,6 +177,11 @@ article h1 {
     margin-bottom: 11px;
 }
 
+.subtitulo {
+    text-align: center;
+    color: var(--azulLogo)
+}
+
 article h2 {
     font-size: 1.8em;
     margin-bottom: 11px;
