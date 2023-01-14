@@ -225,6 +225,10 @@ figcaption p {
     text-align: center;
 }
 
+.negrito {
+    font-weight: bold;
+}
+
 .rodapedoartigo {
     background: var(--azulLogo);
     border-radius: 10px;
