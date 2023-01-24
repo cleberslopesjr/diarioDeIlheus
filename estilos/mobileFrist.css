@@ -154,6 +154,12 @@ section h2 {
     font-size: 1.5em;
 }
 
+#manchete {
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 7px;
+}
+
 #fotoColunista {
     border-radius: 20px;
     width: 100px;
