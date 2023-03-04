@@ -372,6 +372,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-right: 50px;
     }
 
+    articleindex {
+        max-width: 715px;
+    }
+
     .imgartigo {
         max-width: 330px;
     }
@@ -450,6 +454,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .iconvoltaraotopo {
         margin-bottom: 50px;
         margin-right: 50px;
+    }
+
+    .articleindex {
+        width: 540px;
+        height: 670px;
     }
 
     .imgartigo {

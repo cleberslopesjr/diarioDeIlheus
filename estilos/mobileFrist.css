@@ -150,14 +150,20 @@ section {
     padding: 7px;
 }
 
-section h2 {
-    font-size: 1.5em;
-}
-
 #manchete {
     background-color: var(--branco);
     border-radius: 10px;
+    color: var(--preto);
+    margin: 7px;
     padding: 7px;
+}
+
+#h2manchete {
+    font-size: 2em;
+}
+
+section h2 {
+    font-size: 1.5em;
 }
 
 #fotoColunista {
