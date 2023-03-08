@@ -60,18 +60,18 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
 @media screen and (max-width: 599px) {
     
-    .col-p-1 {width: 8.33%;}
-    .col-p-2 {width: 16.66%;}
-    .col-p-3 {width: 25%;}
-    .col-p-4 {width: 33.33%;}
-    .col-p-5 {width: 41.66%;}
-    .col-p-6 {width: 50%;}
-    .col-p-7 {width: 58.33%;}
-    .col-p-8 {width: 66.66%;}
-    .col-p-9 {width: 75%;}
-    .col-p-10 {width: 83.33%;}
-    .col-p-11 {width: 91.66%;}
-    .col-p-12 {width: 100%;}
+    .col-pp-1 {width: 8.33%;}
+    .col-pp-2 {width: 16.66%;}
+    .col-pp-3 {width: 25%;}
+    .col-pp-4 {width: 33.33%;}
+    .col-pp-5 {width: 41.66%;}
+    .col-pp-6 {width: 50%;}
+    .col-pp-7 {width: 58.33%;}
+    .col-pp-8 {width: 66.66%;}
+    .col-pp-9 {width: 75%;}
+    .col-pp-10 {width: 83.33%;}
+    .col-pp-11 {width: 91.66%;}
+    .col-pp-12 {width: 100%;}
 
     #cabecalho {
         min-height: 157px;
@@ -267,7 +267,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     #banner {
         width: 100%;
     }
-
     
     .iconsFontAwesome {
         font-size: 3em;
@@ -287,7 +286,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     .imgPaginaDoArt {
-        width: 220px;
+        width: 450px;
     }
 
     footer {
@@ -454,6 +453,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .iconvoltaraotopo {
         margin-bottom: 50px;
         margin-right: 50px;
+    }
+
+    #manchete header hgroup h2 {
+        font-size: 2em;
     }
 
     .articleindex {
