@@ -95,12 +95,17 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         padding: 0px;
     }
 
-    #divBanner {
+    #divBanner1 {
         padding: 0px;
         width: 100%;
     }
 
-    #banner {
+    #divBanner2 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .banner {
         width: 100%;
     }
 
@@ -174,12 +179,17 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         padding: 0px;
     }
 
-    #divBanner {
+    #divBanner1 {
         padding: 0px;
         width: 100%;
     }
 
-    #banner {
+    #divBanner2 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .banner {
         width: 100%;
     }
 
@@ -259,12 +269,17 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         text-align: right;
     }
 
-    #divBanner {
+    #divBanner1 {
         padding: 0px;
         width: 100%;
     }
 
-    #banner {
+    #divBanner2 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .banner {
         width: 100%;
     }
     
@@ -348,15 +363,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         text-align: right;
     }
 
-    #divBanner {
+    #divBanner1 {
         padding: 0px;
         width: 100%;
     }
 
-    #banner {
+    #divBanner2 {
+        padding: 0px;
         width: 100%;
     }
 
+    .banner {
+        width: 100%;
+    }
     
     .iconsFontAwesome {
         font-size: 3.5em;
@@ -433,12 +452,17 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         padding: 0px;
     }
 
-    #divBanner {
+    #divBanner1 {
         padding: 0px;
         width: 100%;
     }
 
-    #banner {
+    #divBanner2 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .banner {
         width: 1000px;
     }
     

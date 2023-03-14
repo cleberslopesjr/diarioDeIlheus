@@ -105,7 +105,7 @@ td.banner {
     text-align: center;
 }
 
-#banner {
+.banner {
     max-width: 1000px;
 }
 
