@@ -1,0 +1,2 @@
+var banner1=document.querySelector('#divBanner1');
+banner1.innerHTML='<a href="https://www.ilheus.ba.gov.br/detalhe-da-materia/info/caminho-dos-altos-prefeito-mario-alexandre-entrega-escadaria-do-alto-do-amparo-neste-sabado-5/155306" target="_blank" rel="external"><img src="https://www.diariodeilheus.com/imagens/banners/gifCaminhoDosAltos.gif" alt="Banner de propaganda do Projeto Caminho dos Altos da Prefeitura Municipal de Ilhéus" class="banner"></a>';
