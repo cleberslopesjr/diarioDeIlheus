@@ -105,6 +105,12 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         width: 100%;
     }
 
+    #divBanner3 {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
     .banner {
         width: 100%;
     }
@@ -425,6 +431,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-gg-12 {width: 100%;}
 
     body {
+
         width: 100%;
     }
 
@@ -453,13 +460,37 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner1 {
+        margin: 0px;
         padding: 0px;
         width: 100%;
     }
 
+    #divBanner1 img {
+        padding: 0px;
+        width: 728px;
+        height: 90px;
+    }
+
     #divBanner2 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #divBanner2 img{
         padding: 0px;
         width: 100%;
+    }
+
+    #divBanner3 {
+        margin: 0px;
+        padding: 0px;
+        width: 800px;
+    }
+
+    #divBanner3 img{
+        margin: 7px;
+        padding: 0px;
+        width: 800px;
     }
 
     .banner {
@@ -483,9 +514,14 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         font-size: 2em;
     }
 
+    #sectionultimasnoticias {
+        padding: 7px;
+    }
+
     .articleindex {
-        width: 540px;
-        height: 670px;
+        padding: 7px;
+        width: 393px;
+        height: 725px;
     }
 
     .imgartigo {
@@ -494,6 +530,16 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     .imgPaginaDoArt {
         width: 620px;
+    }
+
+    .divcorpodoartigo {
+        padding: 7px;
+    }
+
+    #bannerslaterais {
+        background: var(--corDeFundoDasSecoes);
+        border-radius: 7px;
+        padding: 7px;
     }
 
 }
