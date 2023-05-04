@@ -1,2 +1,2 @@
 var banner2=document.querySelector('#divBanner2');
-banner2.innerHTML='<a href="https://www.camarailheus.ba.gov.br/" target="_blank" rel="external"><img src="imagens/banners/2023marcobannercamaraios.gif" alt="Banner de propaganda da TV Câmara da Câmara de Vereadores de Ilhéus."></a>';
+banner2.innerHTML='<a href="https://www.camarailheus.ba.gov.br/" target="_blank" rel="external"><img src="https://www.diariodeilheus.com/imagens/banners/2023marcobannercamaraios.gif" alt="Banner de propaganda da TV Câmara da Câmara de Vereadores de Ilhéus."></a>';
