@@ -74,12 +74,12 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-pp-12 {width: 100%;}
 
     #cabecalho {
-        min-height: 157px;
+        height: 77px;
     }
 
     #figLogo {
         padding: 0px;
-        height: 69px;
+        height: 9px;
     }
 
     #logo {
@@ -244,7 +244,8 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-12 {width: 100%;}
 
     #cabecalho {
-        height: 310px;
+        position: fixed;
+        height: 74px;
     }
 
     #figLogo {
@@ -281,6 +282,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner2 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #divBanner3 {
         padding: 0px;
         width: 100%;
     }
@@ -333,7 +339,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-g-12 {width: 100%;}
 
     #cabecalho {
-        height: 310px;
+        height: 74px;
     }
 
     #figLogo {
@@ -345,7 +351,8 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #logo {
-        width: 979px;
+        width: 164px;
+        height: 60px;
     }
 
     #h1Cabecalho {
@@ -358,7 +365,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         text-align: right;
     }
     #figLogo {
-        width: 666px;
+        width: 164px;
+        height: 60px;
+	    margin: auto auto 0px -33px;
+	    padding-top: 10px;
     }
 
     #divHamburguer {
@@ -375,8 +385,13 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner2 {
+        max-width: 965px;
         padding: 0px;
         width: 100%;
+    }
+
+    #divBanner3 {
+        max-width: ;
     }
 
     .banner {
@@ -396,7 +411,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin-right: 50px;
     }
 
-    articleindex {
+    .articleindex {          /* controla as larguras dos artilhos puclicados na página principal (index.html) */
         max-width: 715px;
     }
 
@@ -435,20 +450,33 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         width: 100%;
     }
 
-    #cabecalho {
+    /*#cabecalho {
+        margin: -21px -7px 1px -8px;
         width: 100%;
-        height: 310px;
-    }
+        height: 77px;
+    }*/
 
-    #figLogo {
-        margin: auto;
-        float: center;
-        padding: 0px;
-        height: auto;
+    /*#figLogo {
+        width: 164px;
+        height: 60px;
+	    margin: auto auto 0px -33px;
+	    padding-top: 10px;
     }
 
     #logo {
         width: 666px;
+    }*/
+
+    #cabecalho {
+        margin-right: 0px;
+        padding: 0px;
+        right: 0px;
+        height: 74px;
+    }
+
+    #figLogo img {
+        margin-top: 7px;
+        margin-bottom: 7px;
     }
 
     #h1Cabecalho {
@@ -456,6 +484,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
     
     #divHamburguer {
+        margin-top: 70px;
         padding: 0px;
     }
 
@@ -515,10 +544,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #sectionultimasnoticias {
+        max-width: 842px;
         padding: 7px;
     }
 
-    .articleindex {
+    .articleindex {          /* controla as larguras dos artilhos puclicados na página principal (index.html) */
         padding: 7px;
         width: 393px;
         height: 725px;

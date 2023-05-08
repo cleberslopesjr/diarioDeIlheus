@@ -34,6 +34,7 @@ body, html {
 body {
     background: var(--branco);
     color: var(--preto);
+    width: 100%;
 }
 
 a {
@@ -47,16 +48,33 @@ a:hover {
 
 #cabecalho {
     background-image: linear-gradient(#fff101,#4ca391,#2e3092);
-    display: block;
     color: var(--preto);
     height: auto;
     padding: 7px;
-    margin-bottom: 7px;
+    position: fixed;
+    right: 7px;
+    margin-bottom: 8px;
+    top: 0em;
+    width: 100%;
 }
 
-#cabecalho figure img {
-    min-width: 280px;
-    max-width: 666px;
+#figLogo {
+    margin: 0px;
+    padding: 0px;
+    width: 164px;
+    height: 60px;
+}
+
+#figLogo img {
+    margin: 0px 0px 0px 7px;
+	padding: 0px;
+    width: 164px;
+    height: 60px;
+}
+
+#divHamburguer {
+    margin-top: 70px;
+    padding: 0px;
 }
 
 #hamburguer {
@@ -211,6 +229,14 @@ article h4 {
 
 article p {
     margin-bottom: 11px;
+}
+
+.rodapeartigo {
+    background: var(--azulLogo);
+    border-radius: 10px;
+    color: var(--branco);
+    padding: 7px;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
