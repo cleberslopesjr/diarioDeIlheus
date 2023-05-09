@@ -164,7 +164,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     .col-p-12 {width: 100%;}
 
     #cabecalho {
-        min-height: 310px;
+        min-height: 74px;
     }
 
     #figLogo {
@@ -187,12 +187,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     #divBanner1 {
         padding: 0px;
-        width: 100%;
     }
 
     #divBanner2 {
         padding: 0px;
-        width: 100%;
+    }
+
+    #divBanner3 {
+        padding: 0px;
+    }
+
+    .bannerhorizontal {
+        min-width: 650px;
+        max-width: 700px;
     }
 
     .banner {
@@ -278,17 +285,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     #divBanner1 {
         padding: 0px;
-        width: 100%;
     }
 
     #divBanner2 {
         padding: 0px;
-        width: 100%;
     }
 
     #divBanner3 {
         padding: 0px;
-        width: 100%;
+    }
+
+    .bannerhorizontal {
+        min-width: 719px;
+        max-width: 800px;
     }
 
     .banner {
@@ -520,6 +529,10 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         margin: 7px;
         padding: 0px;
         width: 800px;
+    }
+
+    .bannerhorizontal {
+        min-width: 794px;
     }
 
     .banner {
