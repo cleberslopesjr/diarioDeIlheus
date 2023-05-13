@@ -96,17 +96,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner1 {
+        max-width: 550px;
         padding: 0px;
         width: 100%;
     }
 
     #divBanner2 {
+        max-width: 550px;
         padding: 0px;
         width: 100%;
     }
 
     #divBanner3 {
-        margin: 0px;
+        max-width: 550px;
         padding: 0px;
         width: 100%;
     }
@@ -186,20 +188,22 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner1 {
+        width: 550px;
         padding: 0px;
     }
 
     #divBanner2 {
+        width: 550px;
         padding: 0px;
     }
 
     #divBanner3 {
+        width: 550px;
         padding: 0px;
     }
 
     .bannerhorizontal {
-        min-width: 650px;
-        max-width: 700px;
+        
     }
 
     .banner {
@@ -252,6 +256,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
 
     #cabecalho {
         position: fixed;
+        width: auto;
         height: 74px;
     }
 
@@ -284,20 +289,23 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner1 {
+        width: 719px;
         padding: 0px;
     }
 
     #divBanner2 {
+        width: 719px;
         padding: 0px;
     }
 
     #divBanner3 {
+        width: 719px;
         padding: 0px;
     }
 
     .bannerhorizontal {
-        min-width: 719px;
-        max-width: 800px;
+        display: block;
+        margin: auto;
     }
 
     .banner {
@@ -360,8 +368,8 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #logo {
-        width: 164px;
-        height: 60px;
+        width: 200px;
+        height: 73px;
     }
 
     #h1Cabecalho {
@@ -389,6 +397,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner1 {
+        max-width: 965px;
         padding: 0px;
         width: 100%;
     }
@@ -400,7 +409,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner3 {
-        max-width: ;
+        max-width: 965px;
     }
 
     .banner {
@@ -470,11 +479,11 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         height: 60px;
 	    margin: auto auto 0px -33px;
 	    padding-top: 10px;
-    }
+    }*/
 
     #logo {
         width: 666px;
-    }*/
+    }
 
     #cabecalho {
         margin-right: 0px;
@@ -498,41 +507,22 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     }
 
     #divBanner1 {
-        margin: 0px;
-        padding: 0px;
         width: 100%;
-    }
-
-    #divBanner1 img {
-        padding: 0px;
-        width: 728px;
-        height: 90px;
     }
 
     #divBanner2 {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    #divBanner2 img{
-        padding: 0px;
-        width: 100%;
+        width: 800px;
     }
 
     #divBanner3 {
-        margin: 0px;
-        padding: 0px;
-        width: 800px;
-    }
-
-    #divBanner3 img{
-        margin: 7px;
-        padding: 0px;
-        width: 800px;
+        width: 728px;
     }
 
     .bannerhorizontal {
-        min-width: 794px;
+        padding: 0px;
+        display: block;
+        margin: auto;
+       
     }
 
     .banner {
@@ -583,6 +573,21 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         background: var(--corDeFundoDasSecoes);
         border-radius: 7px;
         padding: 7px;
+    }
+
+    #divmapadosite {
+        background: var(--corDeFundoDasSecoes);
+        border-radius: 7px;
+        padding: 7px;
+        margin-top: 7px;
+    }
+
+    .listamapadosite {
+        padding-left: 21px;
+    }
+        
+    .listamapadosite li {
+        padding: 4px 0px 3px 0px;
     }
 
 }
