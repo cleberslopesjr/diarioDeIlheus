@@ -1,0 +1,2 @@
+var banner4=document.querySelector('#divBanner4');
+banner4.innerHTML='<a href="https://www.camarailheus.ba.gov.br/" target="_blank" rel="external"><video width="100%" height="auto" src="https://diariodeilheus.com/midia/banners/bannerdacamaramunicipaldeilheus.mp4" title="Banner de propaganda do Seminário Municipal de Emfrentamento e Combate à Exploração Sexual de Crianças e Adolescentes ocorrido em 18 de maio de 2023 no Centro de Convenções de Ilhéus."></video></a>';
