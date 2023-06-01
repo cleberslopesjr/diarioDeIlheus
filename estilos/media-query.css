@@ -186,7 +186,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     #divHamburguer {
         padding: 0px;
     }
-
+/*
     #divBanner1 {
         width: 550px;
         padding: 0px;
@@ -201,11 +201,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         width: 550px;
         padding: 0px;
     }
-
-    .bannerhorizontal {
-        
-    }
-
+*/
     .banner {
         width: 100%;
     }
@@ -287,7 +283,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     #divDate {
         text-align: right;
     }
-
+/*
     #divBanner1 {
         width: 719px;
         padding: 0px;
@@ -302,12 +298,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         width: 719px;
         padding: 0px;
     }
-
-    .bannerhorizontal {
-        display: block;
-        margin: auto;
-    }
-
+*/
     .banner {
         width: 100%;
     }
@@ -395,7 +386,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     #divDate {
         text-align: right;
     }
-
+/*
     #divBanner1 {
         max-width: 965px;
         padding: 0px;
@@ -411,7 +402,7 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     #divBanner3 {
         max-width: 965px;
     }
-
+*/
     .banner {
         width: 100%;
     }
@@ -506,25 +497,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         padding: 0px;
     }
 
-    #divBanner1 {
-        width: 100%;
-    }
-
-    #divBanner2 {
-        width: 800px;
-    }
-
-    #divBanner3 {
-        width: 728px;
-    }
-
-    .bannerhorizontal {
-        padding: 0px;
-        display: block;
-        margin: auto;
-       
-    }
-
     .banner {
         width: 1000px;
     }
@@ -572,14 +544,19 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
     #bannerslaterais {
         background: var(--corDeFundoDasSecoes);
         border-radius: 7px;
+        float: right;
         padding: 7px;
+        margin: 7px;
+        width: 314px;
     }
 
     #divmapadosite {
         background: var(--corDeFundoDasSecoes);
         border-radius: 7px;
+        float: right;
         padding: 7px;
-        margin-top: 7px;
+        margin: 7px;
+        width: 314px;
     }
 
     .listamapadosite {

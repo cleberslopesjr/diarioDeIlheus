@@ -44,8 +44,8 @@
 	<meta name="twitter:image" content="https://diariodeilheus.com/imagens/logo164x60.jpg">
 	<!--Fim dos metadados para o Twitter-->
 
-    <link rel="stylesheet" href="../../estilos/mobileFrist.css">
-    <link rel="stylesheet" href="../../estilos/media-query.css">
+    <link rel="stylesheet" href="../estilos/mobileFrist.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
     <!-- Abaixo o link do favicon -->
     <link rel="icon" type="image/x-icon" sizes="16x16" href="../../imagens/favicon/favicon.ico">
     <!-- Abaixo o código para usar os ícones do Fontawesone -->
@@ -65,7 +65,7 @@
     <header id="cabecalho" class="col-p-12 col-12 col-g-12 col-gg-12">
         <figure id="figLogo">
             <a href="index.html">
-                <img src="imagens/logomarcaDoDiarioDeIlheus/logo164x60.jpg" alt="Logomarca do Jornal Diário de Ilhéus" title="Logomarca do Jornal Diário de Ilhéus" id="logo">
+                <img src="../imagens/logomarcaDoDiarioDeIlheus/logo164x60.jpg" alt="Logomarca do Jornal Diário de Ilhéus" title="Logomarca do Jornal Diário de Ilhéus" id="logo">
             </a>
         </figure>
     </header>
@@ -104,7 +104,7 @@
                     <h1 class="col-p-12 col-12 col-g-12 col-gg-12"><strong>Midiakit do Jornal Diário de Ilhéus</strong>.</h1>
                     <p class="subtitulo col-p-12 col-12 col-g-12 col-gg-12">Midiakit.</p>
                     <figure class="col-p-12 col-6 col-g-12 col-gg-12">
-                        <img src="imagens/logomarcaDoDiarioDeIlheus/logo164x60.jpg"
+                        <img src="../imagens/logomarcaDoDiarioDeIlheus/logo164x60.jpg"
                         alt="Logomarca do Jornal Diário de Ilhéus."
                         title="Logomarca do Diário de Ilhéus."
                         class="imgPaginaDoArt">
@@ -157,10 +157,11 @@
                         <h3>No site:</h3>
                         <h4>Banners Horizontais:</h4>
                         <ul>
-                            <caption style="font-weight: bold;">Banner Lider:</caption>
-                            <li><span>Tamanho:</span> 728 px X 90 px;</li>
-                            <li><span>Resolução:</span> 72 pixels/polegadas;</li>
-                            <li><span>Perfil de Cor:</span> RGB.</li>
+                            <caption class="negrito">Banner Lider:</caption>
+                            <li><span class="negrito">Tamanho máximo:</span> 100 Kb;</li>
+                            <li><span class="negrito">Dimenções:</span> 728 px X 90 px;</li>
+                            <li><span class="negrito">Resolução:</span> 72 pixels/polegadas;</li>
+                            <li><span class="negrito">Perfil de Cor:</span> RGB.</li>
                         </ul>
                         <h5>Localizações e Valores.</h5>
                         <h6>Banner Horizontal Lider 1 (Banner 1) = R$ 99.999,99.</h6>
@@ -176,18 +177,20 @@
                         <p>Obs2: solicitamos a gentileza de consultar a disponibilidade.</p>
                         <h3>Banners Laterais:</h3>
                         <ul>
-                            <caption style="font-weight: bold;">Banner Retangular:</caption>
-                            <li><span>Tamanho:</span> 300 px X 250 px;</li>
-                            <li><span>Resolução:</span> 72 pixels/polegadas;</li>
-                            <li><span>Perfil de Cor:</span> RGB.</li>
+                            <caption class="negrito">Banner Retangular:</caption>
+                            <li><span class="negrito">Tamanho máximo:</span> 100 Kb;</li>
+                            <li><span class="negrito">Dimenções:</span> 300 px X 250 px;</li>
+                            <li><span class="negrito">Resolução:</span> 72 pixels/polegadas;</li>
+                            <li><span class="negrito">Perfil de Cor:</span> RGB.</li>
                         </ul>
                         <p>Obs: solicitamos a gentileza de consultar a disponibilidade.</p>
                         <br>
                         <ul>
-                            <caption style="font-weight: bold;">Banner Arranha-céu:</caption>
-                            <li><span>Tamanho:</span> 300 px X 250 px;</li>
-                            <li><span>Resolução:</span> 72 pixels/polegadas;</li>
-                            <li><span>Perfil de Cor:</span> RGB.</li>
+                            <caption class="negrito">Banner Arranha-céu:</caption>
+                            <li><span class="negrito">Tamanho máximo:</span> 100 Kb;</li>
+                            <li><span class="negrito">Dimenções:</span> 300 px X 600 px;</li>
+                            <li><span class="negrito">Resolução:</span> 72 pixels/polegadas;</li>
+                            <li><span class="negrito">Perfil de Cor:</span> RGB.</li>
                         </ul>
                         <p>Obs: solicitamos a gentileza de consultar a disponibilidade.</p>
                     </section>
@@ -207,8 +210,11 @@
         <div class="col-p-12 col-12 col-g-12 col-gg-12 bannerhorizontal" id="divBanner3">
             <script src="../../scripts/banner3.js"></script>
         </div>
+        <div class="col-p-12 col-12 col-g-12 col-gg-12 bannerhorizontal" id="divBanner4">
+            <script src="../../scripts/banner4.js"></script>
+        </div>
     </div>
-    <div id="bannerslaterais" class="col-p-12 col-12 col-g-12 col-gg-3">
+    <div id="divbannerslaterais" class="col-p-12 col-12 col-g-12 col-gg-3">
         <!-- weather widget start -->
         <div id="m-booked-vertical-one-prime-89365">
             <div class="weather-customize weather-booked-vertical-one-prime" style="width:160px;">

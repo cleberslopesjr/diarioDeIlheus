@@ -42,10 +42,10 @@
     <!-- Fim dos metadados para o Twitter -->
 
     <!--<link rel="stylesheet" href="estilos/estilo.css" media="all">-->
-    <link rel="stylesheet" href="estilos/mobileFrist.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="../estilos/mobileFrist.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
     <!-- Abaixo o link do favicon -->
-    <link rel="icon" type="image/x-icon" sizes="16x16" href="imagens/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="../imagens/favicon/favicon.ico">
     <!-- Abaixo o script para usar os ícones do Fontawesone -->
     <script src="https://kit.fontawesome.com/8693edf1e3.js" crossorigin="anonymous"></script>
     <!-- Abaixo o link para o Google Icons -->
@@ -59,12 +59,56 @@
                 margin-top: 21px;
             }
         }
+
+        .divbannerlateral300x300 {
+            display: block;
+            margin: auto;
+            padding: 0px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .abannerlateral300x300 {
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .bannerlateral300x300 {
+            display: block;
+            margin: auto;
+            padding: 0px;
+            width: 100%;
+        }
+
+        .divbannerlateral300x600 {
+            display: block;
+            margin: auto;
+            padding: 0px;
+            width: 300px;
+            height: 600px;
+        }
+
+        .abannerlateral300x600 {
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 600px;
+        }
+
+        .bannerlateral300x600 {
+            display: block;
+            margin: auto;
+            padding: 0px;
+            width: 100%;
+        }
     </style>
 </head>
 <body id="body">
     <header id="cabecalho" class="col-p-12 col-12 col-g-12 col-gg-12">
         <figure id="figLogo" class="col-p-12 col-12 col-g-12 col-gg-12">
-            <img src="imagens/logomarcaDoDiarioDeIlheus/logo164x60.jpg" alt="Logomarca do Jornal Diário de Ilhéus" title="Logomarca do Jornal Diário de Ilhéus" id="logo">
+            <img src="../imagens/logomarcaDoDiarioDeIlheus/logo164x60.jpg" alt="Logomarca do Jornal Diário de Ilhéus" title="Logomarca do Jornal Diário de Ilhéus" id="logo">
         </figure>
     </header>
     <div class="col-p-12 col-12 col-g-12 col-gg-12">
@@ -80,7 +124,7 @@
         </nav>
     </div>
     <div class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-12 bannerhorizontal" id="divBanner1">
-        <script src="scripts/banner1.js"></script>
+        <img src="../imagens/banners/modelosdebanners/modelobanner1.jpg" alt="">
     </div>
     <table>
         <tr>
@@ -93,11 +137,11 @@
     </table>
     <div class="coll-pp-12 col-p-12 col-12 col-g-12 col-gg-9">
         <main>
-            <section  class="col-p-12 col-12 col-g-12 col-gg-12" id="manchete">
+            <div  class="col-p-12 col-12 col-g-12 col-gg-12" id="manchete">
                 <a href="noticiasdeilheus/educacao/uescaprovacursodepsicologia.html">
                     <article class="col-p-12 col-12 col-g-12 col-gg-12">
                         <header>
-                            <h1 class="col-p-12 col-12 col-g-6 col-gg-12"><strong>Uesc aprova curso de Psicologia</strong>.</h1>
+                            <h2 class="col-p-12 col-12 col-g-6 col-gg-12"><strong>Uesc aprova curso de Psicologia</strong>.</h2>
                             <p class="subtitulo col-p-12 col-12 col-g-6 col-gg-12">Educação em Ilhéus.</p>
                             <figure class="col-p-12 col-6 col-g-6 col-gg-12">
                                 <img src="../../imagens/conselhodauescaprovacursodepsicologia.jpg"
@@ -116,10 +160,10 @@
                         </div>
                     </article>
                 </a>
-            </section>
+            </div>
         </main>
         <div class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-12 bannerhorizontal" id="divBanner2">
-            <script src="scripts/banner2.js"></script>
+            <img src="../imagens/banners/modelosdebanners/modelobanner2.jpg" alt="">
         </div>
     </div>
     <div id="bannerslaterais" class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-3">
@@ -186,14 +230,16 @@
             document.body.appendChild(weatherBookedScript)
         </script>
         <!-- weather widget end -->
-        <!-- Banner do Planserv -->
-        <a class="col-pp-12 col-p-12 col-3 col-g-3 col-gg-12" href="https://www.planserv.ba.gov.br/planserv" target="_blank" rel="external">
-            <img src="imagens/banners/planserv225pxx119px.jpg" alt="">
-        </a>
-        <!-- Banner da Tropa de Elite -->
-        <a class="col-pp-12 col-p-12 col-3 col-g-3 col-gg-12" href="https://gabrielafm.com.br/programa/231933/tropa-de-elite" target="_blank" rel="external">
-            <img src="imagens/banners/tropadeelite225x182px.png" alt="">
-        </a>
+        <div class="divbannerlateral300x300"><!-- Banner do Planserv -->
+            <a class="col-pp-12 col-p-12 col-3 col-g-3 col-gg-12 abannerlateral300x300" href="https://www.planserv.ba.gov.br/planserv" target="_blank" rel="external">
+                <img src="../imagens/banners/modelosdebanners/modelobannerretangularlateral1.jpg" alt="" title="" class="bannerlateral300x300">
+            </a>
+        </div>
+        <div class="divbannerlateral300x600"><!-- Banner da Tropa de Elite -->
+            <a class="col-pp-12 col-p-12 col-3 col-g-3 col-gg-12 abannerlateral300x600" href="https://gabrielafm.com.br/programa/231933/tropa-de-elite" target="_blank" rel="external">
+                <img src="../imagens/banners/modelosdebanners/modeloarranhaceu300x600.jpg" alt="" title="" class="bannerlateral300x600">
+            </a>
+        </div>
     </div>
     <section id="sectionultimasnoticias" class="col-p-12 col-12 col-g-12 col-gg-12">
         <header>
@@ -227,7 +273,7 @@
                         <p class="subtitulo">Política.</p>
                     </hgroup>
                     <figure class="col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/sededacamaramunicipaldeilheuspassaporvistoriapelocorpodebombeiros.jpg"
+                        <img src="../imagens/sededacamaramunicipaldeilheuspassaporvistoriapelocorpodebombeiros.jpg"
                         alt="Em local interno aparentando ser um escritório bem iluminado e limpo, três homens de pé, a frente das mesas. Os dois da direita de coturnos pretos e usando uma farda laranja estão em uma postura militar de descanso bem relaxado. O terceiro a esquerda segura o que parecem serem folhas de papel na mão esquerda. Ele usa roupas civis: calçado bege, calça jeans e camisa gola polo cinza, mas tenta uma pose céria possivelmente na tentativa de imitar seus companheiros militares."
                         title="Sede da Câmara Municipal de Ilhéus passa por vistoria pelo Corpo de Bombeiros"
                         style="width: 150px">
@@ -242,7 +288,7 @@
             </a>
         </article>
         <div class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-12" id="divBanner3">
-            <script src="scripts/banner3.js"></script>
+            <img src="../imagens/banners/modelosdebanners/modelobanner3.jpg" alt="">
         </div>
         <article class="col-p-12 col-12 col-g-12 col-gg-4 articleindex">
             <a href="noticiasdeilheus/ciencia/ilheusrecebeeventocientificosobreconstrucoessustentaveis.html">
@@ -252,7 +298,7 @@
                         <p class="subtitulo">Ciência.</p>
                     </hgroup>
                     <figure class="col-pp-12 col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/bambu.jpg"
+                        <img src="../imagens/bambu.jpg"
                         alt="Na metade inferior direita a Professora Adélia com cabelos partidos no meio e caindo sobre os ombros, usando uma camisa aberta branca sobre outra camisa vermelha e óculos, unhas e lábios pitados de vermelho, segura um microfone com a mão direita. Ao fundo, na parede, a inscrição: “Equipe formada, escola preparada” abaixo a logomarca da gestão do Governo do Estado da Bahia pelo Partido dos Trabalhadores que consiste no nome: “Governo do Estado” em letras pretas e maiúsculas e abaixo, em letras estilizadas coloridas, maiúsculas, ocupando o mesmo espaço das palavras acima, a palavra: “Bahia”."
                         title="Profª Drª Adelia."
                         style="width: 250px">
@@ -279,7 +325,7 @@
                         <p class="subtitulo">Turísmo em Ilhéus.</p>
                     </hgroup>
                     <figure class="col-pp-12 col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/reformaaero2023.jpg" 
+                        <img src="../imagens/reformaaero2023.jpg" 
                         alt="Canteiro de obras do estacionamento do Aeroporto Jorge Amado. Na metade inferior uma vasta área de areia. Na metade superior esquerda blocos de cimento em palites. Na metade superior direita um muro de zinco. No topo o céu azul ao centro, árvores na esquerda e direita. Também poderem serem vistos telhados, postes e fios no topo." 
                         title="Obra parada do estacionamento do Aeroporto Jorje Amado." 
                         style="width: 250px">
@@ -298,7 +344,7 @@
             </a>
         </article>
         <div class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-12 bannerhorizontal" id="divBanner4">
-            <script src="scripts/banner4.js"></script>
+            <img src="../imagens/banners/modelosdebanners/modelobanner4.jpg" alt="">
         </div>
         <article class="col-p-12 col-12 col-g-12 col-gg-4 articleindex">
             <a href="noticiasdeilheus/economia/cestabasicadeilheusiniciaoanocomalta.html">
@@ -308,7 +354,7 @@
                         <p class="subtitulo">Economia em Ilhéus.</p>
                     </hgroup>
                     <figure class="col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/cestabasica.jpg"
+                        <img src="../imagens/cestabasica.jpg"
                         alt="Carrinho de supermercados lotado de produtos enquanto uma mão feminina, vestindo algo de manga comprida na cor preto, coloca mais um item no mesmo."
                         title="Cesta Básica."
                         style="width: 250px">
@@ -333,7 +379,7 @@
                         <p class="col-pp-12 col-p-12 col-6 col-g-12 col-gg-12 subtitulo">Economia.</p>
                     </hgroup>
                     <figure class="col-pp-12 col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/galpaodoantigoportodeilheusbahia.jpg"
+                        <img src="../imagens/galpaodoantigoportodeilheusbahia.jpg"
                         alt="Lateral externa de um dos Galpões do Antigo Porto de Ilhéus com paredes pintadas de branco e telhas de cerâmica. Nafrente sete carros estacionados, a esquerda uma árvore, acima o céu azul nublado."
                         title="Lateral externa de um dos Galpões do Antigo Porto de Ilhéus."
                         style="width: 250px">
@@ -358,7 +404,7 @@
                         <p class="subtitulo">Cultura.</p>
                     </hgroup>
                     <figure class="col-pp-12 col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/encontrodosgruposdebumbameuboiseuoregoereisadoem6dejaneirode2023.jpg" alt="Várias pessoas em uma praça onde um grupo de Bumba Meu Boi se apresenta." title="Após 30 anos os grupos Bumba Meu Boi do Seu Oreco e Grupo Reisado de Vila Juerana encontran-se. Evento realizado em 6 de janeiro de 2023 (Dia de Reis), na praça Pedro Mattos, na cidade de Ilhéus, Bahia." style="width: 250px">
+                        <img src="../imagens/encontrodosgruposdebumbameuboiseuoregoereisadoem6dejaneirode2023.jpg" alt="Várias pessoas em uma praça onde um grupo de Bumba Meu Boi se apresenta." title="Após 30 anos os grupos Bumba Meu Boi do Seu Oreco e Grupo Reisado de Vila Juerana encontran-se. Evento realizado em 6 de janeiro de 2023 (Dia de Reis), na praça Pedro Mattos, na cidade de Ilhéus, Bahia." style="width: 250px">
                         <figcaption>
                             <p>Após 30 anos os grupos Bumba Meu Boi do Seu Oreco e Grupo Reisado de Vila Juerana encontran-se. Evento realizado em 6 de janeiro de 2023 (Dia de Reis), na praça Pedro Mattos, na cidade de Ilhéus, Bahia.</p>
                         </figcaption>
@@ -380,7 +426,7 @@
                         <p class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-12 subtitulo">Esporte.</p>
                     </hgroup>
                     <figure class="col-pp-12 col-p-12 col-6 col-g-6 col-gg-12">
-                        <img src="imagens/corridadapraia2023_1.jpg"
+                        <img src="../imagens/corridadapraia2023_1.jpg"
                         alt="Em um belo dia ensolarado, vários atletas participando da 1ª etapa da Corrida da Praia 2023."
                         title="1ª etapa da Corrida da Praia 2023."
                         style="width: 250px">
@@ -400,7 +446,7 @@
     </section>
     <!-- Mapa do site -->
     <div id="divmapadosite" class="col-pp-12 col-p-12 col-12 col-g-12 col-gg-3">
-        <script src="scripts/mapadosite.js"></script>
+        <script src="../scripts/mapadosite.js"></script>
     </div>
     <p class="iconvoltaraotopo">
         <a href="#body">
@@ -408,7 +454,7 @@
         </a>
     </p>
     <footer class="col-p-12 col-12 col-g-12 col-gg-12" id="rodapedapagina">
-        <script src="scripts/rodapedapagina.js"></script>
+        <script src="../scripts/rodapedapagina.js"></script>
     </footer>
     <!-- Marcação JSON-LD gerada pelo Assistente de marcação para dados estruturados do Google. -->
     <script type="application/ld+json">

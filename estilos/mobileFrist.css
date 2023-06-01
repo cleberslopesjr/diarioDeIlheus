@@ -123,6 +123,16 @@ td.banner {
     text-align: center;
 }
 
+.bannerhorizontal {
+    vertical-align: middle;
+}
+
+.bannerhorizontal img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 .banner {
     max-width: 1000px;
 }
