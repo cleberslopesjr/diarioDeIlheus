@@ -179,7 +179,7 @@ section {
 }
 
 #manchete {
-    background-color: var(--branco);
+    background-color: var(--corDeFundoDasSecoes);
     border-radius: 10px;
     color: var(--preto);
     margin: 7px;

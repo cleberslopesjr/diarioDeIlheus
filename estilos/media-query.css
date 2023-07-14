@@ -523,12 +523,6 @@ Obs: breakpoints recomendados pelo W3c até a data de 26/08/2022.*/
         padding: 7px;
     }
 
-    .articleindex {          /* controla as larguras dos artilhos puclicados na página principal (index.html) */
-        padding: 7px;
-        width: 393px;
-        height: 725px;
-    }
-
     .imgartigo {
         max-width: 400px;
     }
